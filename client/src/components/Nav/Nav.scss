@@ -1,0 +1,83 @@
+@import "../../utilities/variables.scss";
+
+.nav {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    background: $bg-color;
+    .nav__logo {
+        display: flex;
+        justify-content: center;
+        // align-items: center;
+        // text-align: center;
+        .nav__logoText {
+            font-family: $header-font;
+            font-size: 4rem;
+            color: $font-color;
+            font-style: italic;
+            text-shadow: 3px 2px 0px $blue, 6px 4px 0px $yellow, 9px 6px 0px $light-orange, 12px 8px 0px $dark-orange, 15px 10px 0px $red;
+            text-decoration: none;
+            letter-spacing: 0.1rem;
+        }
+    }
+    .nav__links {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        border-left: 2px solid $font-color;
+        border-right: 2px solid $font-color;
+        height: 40%;
+        margin: auto 0;
+        .nav__linksLink {
+            text-decoration: none;
+            color: $font-color;
+            font-size: 1.8rem;
+            font-family: $header-font;
+            transition: all 0.3s ease-in-out;
+            &.link__home {
+                &:hover {
+                    color: $blue;
+                }
+            }
+            &.link__all {
+                &:hover {
+                    color: $red;
+                }
+            }
+            &.link__mlb {
+                &:hover {
+                    color: $yellow;
+                }
+            }
+            &.link__nba {
+                &:hover {
+                    color: $dark-orange;
+                }
+            }
+            &.link__nfl {
+                &:hover {
+                    color: $light-orange;
+                }
+            }
+            &.link__nhl {
+                &:hover {
+                    color: $nfc-blue;
+                }
+            }
+            
+        }
+    }
+    .nav__social {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        i {
+            color: $font-color;
+            font-size: 2rem;
+            transition: all 0.3s ease-in-out;
+            cursor: pointer;
+            &:hover {
+                color: $blue;
+            }
+        }
+    }
+}

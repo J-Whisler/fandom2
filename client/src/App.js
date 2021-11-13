@@ -1,5 +1,6 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Nav from './components/Nav/Nav';
 import Home from './pages/Home/Home';
 import AllPosts from './pages/AllPosts/AllPosts';
 import MLBPosts from './pages/MLBPosts/MLBPosts';
@@ -11,6 +12,7 @@ function App() {
   return (
     <Router>
       <div className="App">
+        <Nav />
         <Switch>
           <Route path="/" exact component={Home}  />
           <Route path="/all" exact component={AllPosts}  />
