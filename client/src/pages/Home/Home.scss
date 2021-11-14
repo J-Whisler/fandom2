@@ -3,4 +3,84 @@
     background: $bg-color;
     min-height: 100vh;
     color: $font-color;
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    .home__left {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        .home__leftText {
+            width: 22ch;
+            font-family: $main-font;
+            font-size: 2rem;
+            span {
+                color: $dark-orange;
+            }
+        }
+    }
+    .home__right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-right: 12rem;
+        padding-left: 0.5rem;
+        .home__rightCards {
+            // width: 70%;
+            .cards__top {
+                width: 100%;
+                .card__background {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-evenly;
+                }
+            }
+            .cards__bottom {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                gap: 0.75rem;
+                margin-top: 0.75rem;
+            }
+            .cards__top, .cards__bottom {
+                .card {
+                    // border: 2px solid $blue;
+                    border-radius: 0.5rem;
+                    position: relative;
+                    padding: 4rem 5rem;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background: rgb(40, 40, 43);
+                    text-decoration: none;
+                    transition: all 0.3s ease-in-out;
+                    &:hover {
+                        transform: scale(1.03);
+                        box-shadow: 0px 0px 5px $bg-color, 0 0 10px $font-color;
+                    }
+                    .card__background {
+                        position: absolute;
+                        i {
+                            color: $font-color;
+                            opacity: 0.3;
+                            font-size: 6rem;
+                            
+                        }
+                    }
+                    .card__text {
+                        position: absolute;
+                        .card__textLink {
+                            color: $font-color;
+                            text-decoration: none;
+                            font-family: $header-font;
+                            font-size: 5rem;
+                            text-shadow: 0 0 2px $bg-color, 0 0 4px $bg-color, 0 0 6px $bg-color, 0 0 8px $bg-color, 0 0 10px $bg-color;
+                            letter-spacing: 0.2rem;
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
 }
+    
+    
