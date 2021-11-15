@@ -1,1 +1,128 @@
 @import "../../utilities/variables.scss";
+
+.mlbPosts {
+    background: $bg-color;
+    min-height: 100vh;
+    padding: 2rem 4rem;
+    .mlbPosts__header {
+        padding: 1rem 3rem;
+        .mlbPosts__sortBy {
+            display: flex;
+            color: $font-color;
+            align-items: center;
+            .sortBy__header {
+                // margin-right: 1rem;
+                h6 {
+                    font-family: $main-font;
+                    font-size: 1.8rem;
+                    letter-spacing: 0.1rem;
+                }
+            }
+            .sortBy__options {
+                display: flex;
+                align-items: center;
+                span {
+                    font-family: $header-font;
+                    font-size: 1.8rem;
+                    margin: 0 1rem;
+                    cursor: pointer;
+                    transition: all 0.3s ease-in-out;
+                    &.newest {
+                        color: $light-orange;
+                        transform: scale(1.05);
+                    }
+                    &.oldest {
+                        color: $light-orange;
+                        transform: scale(1.05);
+                    }
+                }
+                div {
+                    border: 2px solid $blue;
+                    border-radius: 1rem;
+                    padding: 1rem 0;
+                }
+            }
+        }
+        .mlbPosts__filterBy {
+            display: flex;
+            color: $font-color;
+            align-items: center;
+            .filterBy__header {
+                margin-right: 1rem;
+                h6 {
+                    font-family: $main-font;
+                    font-size: 1.8rem;
+                    letter-spacing: 0.1rem;
+                }
+            }
+           .filterBy__options {
+            display: flex;
+            align-items: center;
+            font-family: $header-font;
+            font-size: 1.8rem;
+            .filterBy__optionsDivider {
+                border: 2px solid $blue;
+                margin: 0 0.7rem;
+                border-radius: 1rem;
+                opacity: 0.8;
+            }
+            .filterBy__optionsDot {
+               background: $blue;
+                border-radius: 50%;
+                padding: 0.3rem;
+                align-self: center;
+                margin: 0 0.7rem;
+                opacity: 0.6;
+
+            }
+            .filterBy__mlb {
+                span {
+                    cursor: pointer;
+                  &.mlb {
+                    color: $dark-orange;
+                }  
+                }
+                
+
+            }
+            .filterBy__mlbConference {
+                display: flex;
+                span {
+                    cursor: pointer;
+                    transition: all 0.3s ease-in-out;
+                    &.al {
+                        color: $al-red;
+                    }
+                    &.nl {
+                        color: $nl-blue
+                    }
+                }
+            }
+            .filterBy__mlbDivision {
+                display: flex;
+                span {
+                    cursor: pointer;
+                    transition: all 0.3s ease-in-out;
+                    &.east {
+                        color: $mlb-east;
+                    }
+                    &.central {
+                        color: $mlb-central;
+                    }
+                    &.west {
+                        color: $mlb-west;
+                    }
+                }
+            }
+            .filterBy__mlbTeam {
+                display: flex;
+                transition: all 0.5s ease-in-out;
+                span {
+                    cursor: pointer;
+                    transition: all 0.3s ease-in-out;
+                }
+            }
+           }
+        }
+    }
+}

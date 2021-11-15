@@ -4,6 +4,8 @@
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     background: $bg-color;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid $font-color;
     .nav__logo {
         display: flex;
         justify-content: center;

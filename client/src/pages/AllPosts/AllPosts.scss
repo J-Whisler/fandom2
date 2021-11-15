@@ -1,1 +1,40 @@
 @import "../../utilities/variables.scss";
+
+.all {
+    background: $bg-color;
+    min-height: 100vh;
+    padding: 2rem 10rem;
+    .all__header {
+        display: flex;
+        color: $font-color;
+        justify-content: space-between;
+        .header__title {
+            h4 {
+                font-family: $header-font;
+                font-size: 2rem;
+            }
+        }
+        .header__filter {
+            h5 {
+                font-family: $main-font;
+                font-size: 1.5rem;
+                letter-spacing: 0.7rem;
+            }
+            .header__icons {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 0.5rem;
+                i {
+                    color: $font-color;
+                    font-size: 3rem;
+                    transition: all 0.3s ease-in-out;
+                    &:hover {
+                        transform: scale(1.1);
+                        color: $blue;
+                    }
+                }
+            }
+          
+        }
+    }
+}

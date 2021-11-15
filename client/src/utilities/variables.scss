@@ -15,27 +15,38 @@ $logo-font: "Damion", cursive;
 $main-font: "Poppins", sans-serif;
 $header-font: "Oswald", sans-serif;
 
-// Conference Colors
+
+// START MLB COLORS
+// MLB Conference Colors
+$al-red: rgb(213, 0, 50);
+$nl-blue: rgb(0, 45, 114);
+
+// MLB Division Colors
+$mlb-east: rgb(254, 176, 130);
+$mlb-central: rgb(255, 255, 127);
+$mlb-west: rgb(99, 192, 100);
+// END MLB COLORS
+
+
+// START NFL COLORS
+//NFL Conference Colors
 $afc-red: rgb(213, 10, 10);
 $afc-red-shadow: rgb(36, 1, 1);
 
 $nfc-blue: rgb(4, 41, 151);
 $nfc-blue-shadow: rgb(1, 10, 34);
 
+// NFL Division Colors
+$nfl-north: rgb(255, 127, 126);
+$nfl-north-shadow: rgb(206, 64, 64);
+$nfl-south: rgb(255, 255, 127);
+$nfl-south-shadow: rgb(92, 92, 19);
+$nfl-east: rgb(254, 176, 130);
+$nfl-east-shadow: rgb(160, 77, 28);
+$nfl-west: rgb(99, 192, 100);
+$nfl-west-shadow: rgb(16, 94, 17);
 
-
-
-// Division Colors
-$north: rgb(255, 127, 126);
-$north-shadow: rgb(206, 64, 64);
-$south: rgb(255, 255, 127);
-$south-shadow: rgb(92, 92, 19);
-$east: rgb(254, 176, 130);
-$east-shadow: rgb(160, 77, 28);
-$west: rgb(99, 192, 100);
-$west-shadow: rgb(16, 94, 17);
-
-// Team Colors
+// NFL Team Colors
 // AFC North
 $bengals-main: rgb(251, 79, 20);
 $bengals-secondary: rgb(0, 0, 0);
@@ -139,3 +150,4 @@ $rams-secondary: rgb(255, 163, 0);
 
 $seahawks-main: rgb(0, 34, 68);
 $seahawks-secondary: rgb(105, 190, 40);
+// END NFL COLORS
