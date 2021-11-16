@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./MLBPosts.scss";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 import PostCard from "../../components/PostCard/PostCard";
 
@@ -17,8 +18,6 @@ const MLBPosts = () => {
       setListOfPosts(response.data);
     });
   }, []);
-
-  const mlbPosts = listOfPosts.filter((post) => post.league === "MLB");
 
   const handleMlbClick = () => {
     setMlbFilter(true);
@@ -41,6 +40,199 @@ const MLBPosts = () => {
   const handleMlbTeamClick = (index) => {
     setMlbTeamFilter(index);
   };
+
+  // Filters
+  const mlbPostsList = listOfPosts.filter((post) => post.league === "MLB");
+  // AL Posts
+  const mlbAlPostsList = mlbPostsList.filter(
+    (alPost) =>
+      alPost.team === "Rays" ||
+      alPost.team === "Red Sox" ||
+      alPost.team === "Yankees" ||
+      alPost.team === "Blue Jays" ||
+      alPost.team === "Orioles" ||
+      alPost.team === "Guardians" ||
+      alPost.team === "Tigers" ||
+      alPost.team === "Twins" ||
+      alPost.team === "Royals" ||
+      alPost.team === "White Sox" ||
+      alPost.team === "Angels" ||
+      alPost.team === "Astros" ||
+      alPost.team === "Athletics" ||
+      alPost.team === "Mariners" ||
+      alPost.team === "Angels" ||
+      alPost.team === "Rangers"
+  );
+  // AL Division Posts
+  // AL East
+  const mlbAlEastPostsList = mlbAlPostsList.filter(
+    (alEastPost) =>
+      alEastPost.team === "Blue Jays" ||
+      alEastPost.team === "Orioles" ||
+      alEastPost.team === "Rays" ||
+      alEastPost.team === "Red Sox" ||
+      alEastPost.team === "Yankees"
+  );
+  // AL Central
+  const mlbAlCentralPostsList = mlbAlPostsList.filter(
+    (alCentralPost) =>
+      alCentralPost.team === "Guardians" ||
+      alCentralPost.team === "Tigers" ||
+      alCentralPost.team === "Twins" ||
+      alCentralPost.team === "Royals" ||
+      alCentralPost.team === "White Sox"
+  );
+  // AL West
+  const mlbAlWestPostsList = mlbAlPostsList.filter(
+    (alWestPost) =>
+      alWestPost.team === "Angels" ||
+      alWestPost.team === "Athletics" ||
+      alWestPost.team === "Astros" ||
+      alWestPost.team === "Mariners" ||
+      alWestPost.team === "Rangers"
+  );
+  // AL East Teams
+  const mlbBlueJaysPostsList = mlbAlEastPostsList.filter(
+    (blueJaysPost) => blueJaysPost.team === "Blue Jays"
+  );
+  const mlbOriolesPostsList = mlbAlEastPostsList.filter(
+    (oriolesPost) => oriolesPost.team === "Orioles"
+  );
+  const mlbRaysPostsList = mlbAlEastPostsList.filter(
+    (raysPost) => raysPost.team === "Rays"
+  );
+  const mlbRedSoxPostsList = mlbAlEastPostsList.filter(
+    (redSoxPost) => redSoxPost.team === "Red Sox"
+  );
+  const mlbYankeesPostsList = mlbAlEastPostsList.filter(
+    (yankeesPost) => yankeesPost.team === "Yankees"
+  );
+  // AL Central Teams
+  const mlbGuardiansPostsList = mlbAlCentralPostsList.filter(
+    (guardiansPost) => guardiansPost.team === "Guardians"
+  );
+  const mlbTigersPostsList = mlbAlCentralPostsList.filter(
+    (tigersPost) => tigersPost.team === "Tigers"
+  );
+  const mlbTwinsPostsList = mlbAlCentralPostsList.filter(
+    (twinsPost) => twinsPost.team === "Twins"
+  );
+  const mlbRoyalsPostsList = mlbAlCentralPostsList.filter(
+    (royalsPost) => royalsPost.team === "Royals"
+  );
+  const mlbWhiteSoxPostsList = mlbAlCentralPostsList.filter(
+    (whiteSoxPost) => whiteSoxPost.team === "White Sox"
+  );
+  // AL West Teams
+  const mlbAngelsPostsList = mlbAlWestPostsList.filter(
+    (angelsPost) => angelsPost.team === "Angels"
+  );
+  const mlbAstrosPostsList = mlbAlWestPostsList.filter(
+    (astrosPost) => astrosPost.team === "Astros"
+  );
+  const mlbAthleticsPostsList = mlbAlWestPostsList.filter(
+    (athleticsPost) => athleticsPost.team === "Athletics"
+  );
+  const mlbMarinersPostsList = mlbAlWestPostsList.filter(
+    (marinersPost) => marinersPost.team === "Mariners"
+  );
+  const mlbRangersPostsList = mlbAlWestPostsList.filter(
+    (rangersPost) => rangersPost.team === "Rangers"
+  );
+  // NL Posts
+  const mlbNlPostsList = mlbPostsList.filter(
+    (nlPost) =>
+      nlPost.team === "Braves" ||
+      nlPost.team === "Marlins" ||
+      nlPost.team === "Mets" ||
+      nlPost.team === "Nationals" ||
+      nlPost.team === "Phillies" ||
+      nlPost.team === "Brewers" ||
+      nlPost.team === "Cardinals" ||
+      nlPost.team === "Cubs" ||
+      nlPost.team === "Pirates" ||
+      nlPost.team === "Reds" ||
+      nlPost.team === "Diamondbacks" ||
+      nlPost.team === "Dodgers" ||
+      nlPost.team === "Giants" ||
+      nlPost.team === "Padres" ||
+      nlPost.team === "Rockies"
+  );
+  // NL East Posts
+  const mlbNlEastPostsList = mlbNlPostsList.filter(
+    (nlEastPost) =>
+      nlEastPost.team === "Braves" ||
+      nlEastPost.team === "Marlins" ||
+      nlEastPost.team === "Mets" ||
+      nlEastPost.team === "Nationals" ||
+      nlEastPost.team === "Phillies"
+  );
+  // NL Central Posts
+  const mlbNlCentralPostsList = mlbNlPostsList.filter(
+    (nlCentralPosts) =>
+      nlCentralPosts.team === "Brewers" ||
+      nlCentralPosts.team === "Cardinals" ||
+      nlCentralPosts.team === "Cubs" ||
+      nlCentralPosts.team === "Pirates" ||
+      nlCentralPosts.team === "Reds"
+  );
+  // NL west Posts
+  const mlbNlWestPostsList = mlbNlPostsList.filter(
+    (nlWestPost) =>
+      nlWestPost.team === "Diamondbacks" ||
+      nlWestPost.team === "Dodgers" ||
+      nlWestPost.team === "Giants" ||
+      nlWestPost.team === "Padres" ||
+      nlWestPost.team === "Rockies"
+  );
+  // NL East Teams
+  const mlbBravesPostsList = mlbNlEastPostsList.filter(
+    (bravesPost) => bravesPost.team === "Braves"
+  );
+  const mlbMarlinsPostsList = mlbNlEastPostsList.filter(
+    (marlinsPost) => marlinsPost.team === "Marlins"
+  );
+  const mlbMetsPostsList = mlbNlEastPostsList.filter(
+    (metsPost) => metsPost.team === "Mets"
+  );
+  const mlbNationalsPostsList = mlbNlEastPostsList.filter(
+    (nationalsPost) => nationalsPost.team === "Nationals"
+  );
+  const mlbPhilliesPostsList = mlbNlEastPostsList.filter(
+    (philliesPost) => philliesPost.team === "Phillies"
+  );
+  // NL Central Teams
+  const mlbBrewersPostsList = mlbNlCentralPostsList.filter(
+    (brewersPost) => brewersPost.team === "Brewers"
+  );
+  const mlbCardinalsPostsList = mlbNlCentralPostsList.filter(
+    (cardinalsPost) => cardinalsPost.team === "Cardinals"
+  );
+  const mlbCubsPostsList = mlbNlCentralPostsList.filter(
+    (cubsPost) => cubsPost.team === "Cubs"
+  );
+  const mlbPiratesPostsList = mlbNlCentralPostsList.filter(
+    (piratesPost) => piratesPost.team === "Pirates"
+  );
+  const mlbRedsPostsList = mlbNlCentralPostsList.filter(
+    (redsPost) => redsPost.team === "Reds"
+  );
+  // NL West Teams
+  const mlbDiamondbacksPostsList = mlbNlWestPostsList.filter(
+    (diamondbacksPost) => diamondbacksPost.team === "Diamondbacks"
+  );
+  const mlbDodgersPostsList = mlbNlWestPostsList.filter(
+    (dodgersPost) => dodgersPost.team === "Dodgers"
+  );
+  const mlbGiantsPostsList = mlbNlWestPostsList.filter(
+    (giantsPost) => giantsPost.team === "Giants"
+  );
+  const mlbPadresPostsList = mlbNlWestPostsList.filter(
+    (padresPost) => padresPost.team === "Padres"
+  );
+  const mlbRockiesPostsList = mlbNlWestPostsList.filter(
+    (rockiesPost) => rockiesPost.team === "Rockies"
+  );
 
   return (
     <div className="mlbPosts">
@@ -355,12 +547,463 @@ const MLBPosts = () => {
           </div>
         </div>
       </div>
-      <div
-        className={sortBy ? "mlbPosts__list newest" : "mlbPosts__list oldest"}
-      >
-        {mlbPosts.map((post, key) => (
-          <PostCard post={post} key={key} />
-        ))}
+      {/* Card display filters */}
+      <div className="mlbPosts__main">
+        <div className="mlbPosts__pageLinks">
+          <Link to="/mlb" className="link">
+            <i className="fas fa-baseball-ball"></i>
+          </Link>
+          <Link to="/nba" className="link">
+            <i className="fas fa-basketball-ball"></i>
+          </Link>
+          <Link to="/nfl" className="link">
+            <i className="fas fa-football-ball"></i>
+          </Link>
+          <Link to="/nhl" className="link">
+            <i className="fas fa-hockey-puck"></i>
+          </Link>
+        </div>
+        <div
+          className={sortBy ? "mlbPosts__list newest" : "mlbPosts__list oldest"}
+        >
+          {/* All MLB Posts */}
+          {mlbFilter &&
+            mlbConferenceFilter === 0 &&
+            mlbDivisionFilter === 0 &&
+            mlbTeamFilter === 0 && (
+              <>
+                {mlbPostsList.map((post, key) => (
+                  <PostCard post={post} key={key} />
+                ))}
+              </>
+            )}
+          {/* AL Map */}
+          {mlbFilter &&
+            mlbConferenceFilter === 1 &&
+            mlbDivisionFilter === 0 &&
+            mlbTeamFilter === 0 && (
+              <>
+                {mlbAlPostsList.map((post, key) => (
+                  <PostCard post={post} key={key} />
+                ))}
+              </>
+            )}
+          {/* NL Map */}
+          {mlbFilter &&
+            mlbConferenceFilter === 2 &&
+            mlbDivisionFilter === 0 &&
+            mlbTeamFilter === 0 && (
+              <>
+                {mlbNlPostsList.map((post, key) => (
+                  <PostCard post={post} key={key} />
+                ))}
+              </>
+            )}
+          {/* AL East Map */}
+          {mlbFilter &&
+            mlbConferenceFilter === 1 &&
+            mlbDivisionFilter === 1 &&
+            mlbTeamFilter === 0 && (
+              <>
+                {mlbAlEastPostsList.map((post, key) => (
+                  <PostCard post={post} key={key} />
+                ))}
+              </>
+            )}
+          {/* AL Central Map */}
+          {mlbFilter &&
+            mlbConferenceFilter === 1 &&
+            mlbDivisionFilter === 2 &&
+            mlbTeamFilter === 0 && (
+              <>
+                {mlbAlCentralPostsList.map((post, key) => (
+                  <PostCard post={post} key={key} />
+                ))}
+              </>
+            )}
+          {/* AL West Map */}
+          {mlbFilter &&
+            mlbConferenceFilter === 1 &&
+            mlbDivisionFilter === 3 &&
+            mlbTeamFilter === 0 && (
+              <>
+                {mlbAlWestPostsList.map((post, key) => (
+                  <PostCard post={post} key={key} />
+                ))}
+              </>
+            )}
+          {/* NL East Map */}
+          {mlbFilter &&
+            mlbConferenceFilter === 2 &&
+            mlbDivisionFilter === 1 &&
+            mlbTeamFilter === 0 && (
+              <>
+                {mlbNlEastPostsList.map((post, key) => (
+                  <PostCard post={post} key={key} />
+                ))}
+              </>
+            )}
+          {/* NL Central Map */}
+          {mlbFilter &&
+            mlbConferenceFilter === 2 &&
+            mlbDivisionFilter === 2 &&
+            mlbTeamFilter === 0 && (
+              <>
+                {mlbNlCentralPostsList.map((post, key) => (
+                  <PostCard post={post} key={key} />
+                ))}
+              </>
+            )}
+          {/* NL West Map */}
+          {mlbFilter &&
+            mlbConferenceFilter === 2 &&
+            mlbDivisionFilter === 3 &&
+            mlbTeamFilter === 0 && (
+              <>
+                {mlbNlWestPostsList.map((post, key) => (
+                  <PostCard post={post} key={key} />
+                ))}
+              </>
+            )}
+          {/* AL East Teams Map */}
+          {/* Blue Jays Map */}
+          {mlbFilter &&
+            mlbConferenceFilter === 1 &&
+            mlbDivisionFilter === 1 &&
+            mlbTeamFilter === 111 && (
+              <>
+                {mlbBlueJaysPostsList.map((post, key) => (
+                  <PostCard post={post} key={key} />
+                ))}
+              </>
+            )}
+          {/* Orioles Map */}
+          {mlbFilter &&
+            mlbConferenceFilter === 1 &&
+            mlbDivisionFilter === 1 &&
+            mlbTeamFilter === 112 && (
+              <>
+                {mlbOriolesPostsList.map((post, key) => (
+                  <PostCard post={post} key={key} />
+                ))}
+              </>
+            )}
+          {/* Rays Map */}
+          {mlbFilter &&
+            mlbConferenceFilter === 1 &&
+            mlbDivisionFilter === 1 &&
+            mlbTeamFilter === 113 && (
+              <>
+                {mlbRaysPostsList.map((post, key) => (
+                  <PostCard post={post} key={key} />
+                ))}
+              </>
+            )}
+          {/* Red Sox Map */}
+          {mlbFilter &&
+            mlbConferenceFilter === 1 &&
+            mlbDivisionFilter === 1 &&
+            mlbTeamFilter === 114 && (
+              <>
+                {mlbRedSoxPostsList.map((post, key) => (
+                  <PostCard post={post} key={key} />
+                ))}
+              </>
+            )}
+          {/* Yankees Map */}
+          {mlbFilter &&
+            mlbConferenceFilter === 1 &&
+            mlbDivisionFilter === 1 &&
+            mlbTeamFilter === 115 && (
+              <>
+                {mlbYankeesPostsList.map((post, key) => (
+                  <PostCard post={post} key={key} />
+                ))}
+              </>
+            )}
+          {/* AL Central Teams Map */}
+          {/* Guardians Map */}
+          {mlbFilter &&
+            mlbConferenceFilter === 1 &&
+            mlbDivisionFilter === 2 &&
+            mlbTeamFilter === 121 && (
+              <>
+                {mlbGuardiansPostsList.map((post, key) => (
+                  <PostCard post={post} key={key} />
+                ))}
+              </>
+            )}
+          {/* Royals Map */}
+          {mlbFilter &&
+            mlbConferenceFilter === 1 &&
+            mlbDivisionFilter === 2 &&
+            mlbTeamFilter === 122 && (
+              <>
+                {mlbRoyalsPostsList.map((post, key) => (
+                  <PostCard post={post} key={key} />
+                ))}
+              </>
+            )}
+          {/* Tigers Map */}
+          {mlbFilter &&
+            mlbConferenceFilter === 1 &&
+            mlbDivisionFilter === 2 &&
+            mlbTeamFilter === 123 && (
+              <>
+                {mlbTigersPostsList.map((post, key) => (
+                  <PostCard post={post} key={key} />
+                ))}
+              </>
+            )}
+          {/* Twins Map */}
+          {mlbFilter &&
+            mlbConferenceFilter === 1 &&
+            mlbDivisionFilter === 2 &&
+            mlbTeamFilter === 124 && (
+              <>
+                {mlbTwinsPostsList.map((post, key) => (
+                  <PostCard post={post} key={key} />
+                ))}
+              </>
+            )}
+
+          {/* White Sox Map */}
+          {mlbFilter &&
+            mlbConferenceFilter === 1 &&
+            mlbDivisionFilter === 2 &&
+            mlbTeamFilter === 125 && (
+              <>
+                {mlbWhiteSoxPostsList.map((post, key) => (
+                  <PostCard post={post} key={key} />
+                ))}
+              </>
+            )}
+          {/* AL West Team Map */}
+          {/* Angels Map */}
+          {mlbFilter &&
+            mlbConferenceFilter === 1 &&
+            mlbDivisionFilter === 3 &&
+            mlbTeamFilter === 131 && (
+              <>
+                {mlbAngelsPostsList.map((post, key) => (
+                  <PostCard post={post} key={key} />
+                ))}
+              </>
+            )}
+          {/* Astros Map */}
+          {mlbFilter &&
+            mlbConferenceFilter === 1 &&
+            mlbDivisionFilter === 3 &&
+            mlbTeamFilter === 132 && (
+              <>
+                {mlbAstrosPostsList.map((post, key) => (
+                  <PostCard post={post} key={key} />
+                ))}
+              </>
+            )}
+          {/* Athletics Map */}
+          {mlbFilter &&
+            mlbConferenceFilter === 1 &&
+            mlbDivisionFilter === 3 &&
+            mlbTeamFilter === 133 && (
+              <>
+                {mlbAthleticsPostsList.map((post, key) => (
+                  <PostCard post={post} key={key} />
+                ))}
+              </>
+            )}
+          {/* Mariners Map */}
+          {mlbFilter &&
+            mlbConferenceFilter === 1 &&
+            mlbDivisionFilter === 3 &&
+            mlbTeamFilter === 134 && (
+              <>
+                {mlbMarinersPostsList.map((post, key) => (
+                  <PostCard post={post} key={key} />
+                ))}
+              </>
+            )}
+          {/* Rangers Map */}
+          {mlbFilter &&
+            mlbConferenceFilter === 1 &&
+            mlbDivisionFilter === 3 &&
+            mlbTeamFilter === 135 && (
+              <>
+                {mlbRangersPostsList.map((post, key) => (
+                  <PostCard post={post} key={key} />
+                ))}
+              </>
+            )}
+          {/* NL East Teams Map */}
+          {/* Braves Map */}
+          {mlbFilter &&
+            mlbConferenceFilter === 2 &&
+            mlbDivisionFilter === 1 &&
+            mlbTeamFilter === 211 && (
+              <>
+                {mlbBravesPostsList.map((post, key) => (
+                  <PostCard post={post} key={key} />
+                ))}
+              </>
+            )}
+          {/* Marlins Map */}
+          {mlbFilter &&
+            mlbConferenceFilter === 2 &&
+            mlbDivisionFilter === 1 &&
+            mlbTeamFilter === 212 && (
+              <>
+                {mlbMarlinsPostsList.map((post, key) => (
+                  <PostCard post={post} key={key} />
+                ))}
+              </>
+            )}
+          {/* Mets Map */}
+          {mlbFilter &&
+            mlbConferenceFilter === 2 &&
+            mlbDivisionFilter === 1 &&
+            mlbTeamFilter === 213 && (
+              <>
+                {mlbMetsPostsList.map((post, key) => (
+                  <PostCard post={post} key={key} />
+                ))}
+              </>
+            )}
+          {/* Nationals Map */}
+          {mlbFilter &&
+            mlbConferenceFilter === 2 &&
+            mlbDivisionFilter === 1 &&
+            mlbTeamFilter === 214 && (
+              <>
+                {mlbNationalsPostsList.map((post, key) => (
+                  <PostCard post={post} key={key} />
+                ))}
+              </>
+            )}
+          {/* Phillies Map */}
+          {mlbFilter &&
+            mlbConferenceFilter === 2 &&
+            mlbDivisionFilter === 1 &&
+            mlbTeamFilter === 215 && (
+              <>
+                {mlbPhilliesPostsList.map((post, key) => (
+                  <PostCard post={post} key={key} />
+                ))}
+              </>
+            )}
+          {/* NL Central Teams Map */}
+          {/* Brewers */}
+          {mlbFilter &&
+            mlbConferenceFilter === 2 &&
+            mlbDivisionFilter === 2 &&
+            mlbTeamFilter === 221 && (
+              <>
+                {mlbBrewersPostsList.map((post, key) => (
+                  <PostCard post={post} key={key} />
+                ))}
+              </>
+            )}
+          {/* Cardinals */}
+          {mlbFilter &&
+            mlbConferenceFilter === 2 &&
+            mlbDivisionFilter === 2 &&
+            mlbTeamFilter === 222 && (
+              <>
+                {mlbCardinalsPostsList.map((post, key) => (
+                  <PostCard post={post} key={key} />
+                ))}
+              </>
+            )}
+          {/* Cubs */}
+          {mlbFilter &&
+            mlbConferenceFilter === 2 &&
+            mlbDivisionFilter === 2 &&
+            mlbTeamFilter === 223 && (
+              <>
+                {mlbCubsPostsList.map((post, key) => (
+                  <PostCard post={post} key={key} />
+                ))}
+              </>
+            )}
+          {/* Pirates */}
+          {mlbFilter &&
+            mlbConferenceFilter === 2 &&
+            mlbDivisionFilter === 2 &&
+            mlbTeamFilter === 224 && (
+              <>
+                {mlbPiratesPostsList.map((post, key) => (
+                  <PostCard post={post} key={key} />
+                ))}
+              </>
+            )}
+          {/* Reds */}
+          {mlbFilter &&
+            mlbConferenceFilter === 2 &&
+            mlbDivisionFilter === 2 &&
+            mlbTeamFilter === 225 && (
+              <>
+                {mlbRedsPostsList.map((post, key) => (
+                  <PostCard post={post} key={key} />
+                ))}
+              </>
+            )}
+
+          {/* NL West Teams Map */}
+          {/* Diamondbacks */}
+          {mlbFilter &&
+            mlbConferenceFilter === 2 &&
+            mlbDivisionFilter === 3 &&
+            mlbTeamFilter === 231 && (
+              <>
+                {mlbDiamondbacksPostsList.map((post, key) => (
+                  <PostCard post={post} key={key} />
+                ))}
+              </>
+            )}
+          {/* Dodgers */}
+          {mlbFilter &&
+            mlbConferenceFilter === 2 &&
+            mlbDivisionFilter === 3 &&
+            mlbTeamFilter === 232 && (
+              <>
+                {mlbDodgersPostsList.map((post, key) => (
+                  <PostCard post={post} key={key} />
+                ))}
+              </>
+            )}
+          {/* Giants */}
+          {mlbFilter &&
+            mlbConferenceFilter === 2 &&
+            mlbDivisionFilter === 3 &&
+            mlbTeamFilter === 233 && (
+              <>
+                {mlbGiantsPostsList.map((post, key) => (
+                  <PostCard post={post} key={key} />
+                ))}
+              </>
+            )}
+          {/* Padres */}
+          {mlbFilter &&
+            mlbConferenceFilter === 2 &&
+            mlbDivisionFilter === 3 &&
+            mlbTeamFilter === 234 && (
+              <>
+                {mlbPadresPostsList.map((post, key) => (
+                  <PostCard post={post} key={key} />
+                ))}
+              </>
+            )}
+          {/* Rockies */}
+          {mlbFilter &&
+            mlbConferenceFilter === 2 &&
+            mlbDivisionFilter === 3 &&
+            mlbTeamFilter === 235 && (
+              <>
+                {mlbRockiesPostsList.map((post, key) => (
+                  <PostCard post={post} key={key} />
+                ))}
+              </>
+            )}
+        </div>
       </div>
     </div>
   );

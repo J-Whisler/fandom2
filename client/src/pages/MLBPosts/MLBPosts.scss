@@ -282,16 +282,41 @@
            }
         }
     }
-    .mlbPosts__list {
+    .mlbPosts__main {
+        // border: 2px solid white;
         display: flex;
-        flex-direction: column;
-        // margin-left: 3rem;
-        margin: 0 5rem;
-        &.newest {
-            flex-direction: column-reverse;
-        }
-        &.oldest {
+        padding: 0 1rem;
+        .mlbPosts__pageLinks {
+            // border: 2px solid green;
+            display: flex;
             flex-direction: column;
+            padding-top: 7rem;
+            .link {
+                color: $font-color;
+                opacity: 0.5;
+                font-size: 3rem;
+                margin-bottom: 3rem;
+                transition: all 0.3s ease-in-out;
+                &:hover {
+                    opacity: 0.6;
+                    transform: scale(1.05);
+                    text-shadow: 0 0 15px $bg-color, 0 0 10px $font-color;
+                }
+            }
+        }
+        .mlbPosts__list {
+            // border: 2px solid yellow;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            // margin-left: 3rem;
+            margin: 0 5rem;
+            &.newest {
+                flex-direction: column-reverse;
+            }
+            &.oldest {
+                flex-direction: column;
+            }
         }
     }
 }
