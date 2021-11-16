@@ -121,91 +121,243 @@ const MLBPosts = () => {
             {mlbFilter && mlbConferenceFilter === 1 && mlbDivisionFilter === 1 && (
               <div className="filterBy__mlbTeam">
                 <div className="filterBy__optionsDivider"></div>
-                <span>Blue Jays</span>
+                <span
+                  onClick={() => handleMlbTeamClick(111)}
+                  className={mlbTeamFilter === 111 ? "bluejays" : ""}
+                >
+                  Blue Jays
+                </span>
                 <div className="filterBy__optionsDot"></div>
-                <span>Orioles</span>
+                <span
+                  onClick={() => handleMlbTeamClick(112)}
+                  className={mlbTeamFilter === 112 ? "orioles" : ""}
+                >
+                  Orioles
+                </span>
                 <div className="filterBy__optionsDot"></div>
-                <span>Rays</span>
+                <span
+                  onClick={() => handleMlbTeamClick(113)}
+                  className={mlbTeamFilter === 113 ? "rays" : ""}
+                >
+                  Rays
+                </span>
                 <div className="filterBy__optionsDot"></div>
-                <span>Red Sox</span>
+                <span
+                  onClick={() => handleMlbTeamClick(114)}
+                  className={mlbTeamFilter === 114 ? "redsox" : ""}
+                >
+                  Red Sox
+                </span>
                 <div className="filterBy__optionsDot"></div>
-                <span>Yankees</span>
+                <span
+                  onClick={() => handleMlbTeamClick(115)}
+                  className={mlbTeamFilter === 115 ? "yankees" : ""}
+                >
+                  Yankees
+                </span>
               </div>
             )}
             {mlbFilter && mlbConferenceFilter === 1 && mlbDivisionFilter === 2 && (
               <div className="filterBy__mlbTeam">
                 <div className="filterBy__optionsDivider"></div>
-                <span>Guardians</span>
+                <span
+                  onClick={() => handleMlbTeamClick(121)}
+                  className={mlbTeamFilter === 121 ? "guardians" : ""}
+                >
+                  Guardians
+                </span>
                 <div className="filterBy__optionsDot"></div>
-                <span>Royals</span>
+                <span
+                  onClick={() => handleMlbTeamClick(122)}
+                  className={mlbTeamFilter === 122 ? "royals" : ""}
+                >
+                  Royals
+                </span>
                 <div className="filterBy__optionsDot"></div>
-                <span>Tigers</span>
+                <span
+                  onClick={() => handleMlbTeamClick(123)}
+                  className={mlbTeamFilter === 123 ? "tigers" : ""}
+                >
+                  Tigers
+                </span>
                 <div className="filterBy__optionsDot"></div>
-                <span>Twins</span>
+                <span
+                  onClick={() => handleMlbTeamClick(124)}
+                  className={mlbTeamFilter === 124 ? "twins" : ""}
+                >
+                  Twins
+                </span>
                 <div className="filterBy__optionsDot"></div>
-                <span>White Sox</span>
+                <span
+                  onClick={() => handleMlbTeamClick(125)}
+                  className={mlbTeamFilter === 125 ? "whitesox" : ""}
+                >
+                  White Sox
+                </span>
               </div>
             )}
             {mlbFilter && mlbConferenceFilter === 1 && mlbDivisionFilter === 3 && (
               <div className="filterBy__mlbTeam">
                 <div className="filterBy__optionsDivider"></div>
-                <span>Angels</span>
+                <span
+                  onClick={() => handleMlbTeamClick(131)}
+                  className={mlbTeamFilter === 131 ? "angels" : ""}
+                >
+                  Angels
+                </span>
                 <div className="filterBy__optionsDot"></div>
-                <span>Astros</span>
+                <span
+                  onClick={() => handleMlbTeamClick(132)}
+                  className={mlbTeamFilter === 132 ? "astros" : ""}
+                >
+                  Astros
+                </span>
                 <div className="filterBy__optionsDot"></div>
-                <span>Athletics</span>
+                <span
+                  onClick={() => handleMlbTeamClick(133)}
+                  className={mlbTeamFilter === 133 ? "athletics" : ""}
+                >
+                  Athletics
+                </span>
                 <div className="filterBy__optionsDot"></div>
-                <span>Mariners</span>
+                <span
+                  onClick={() => handleMlbTeamClick(134)}
+                  className={mlbTeamFilter === 134 ? "mariners" : ""}
+                >
+                  Mariners
+                </span>
                 <div className="filterBy__optionsDot"></div>
-                <span>Rangers</span>
+                <span
+                  onClick={() => handleMlbTeamClick(135)}
+                  className={mlbTeamFilter === 135 ? "rangers" : ""}
+                >
+                  Rangers
+                </span>
               </div>
             )}
             {mlbFilter && mlbConferenceFilter === 2 && mlbDivisionFilter === 1 && (
               <div className="filterBy__mlbTeam">
                 <div className="filterBy__optionsDivider"></div>
-                <span>Braves</span>
+                <span
+                  onClick={() => handleMlbTeamClick(211)}
+                  className={mlbTeamFilter === 211 ? "braves" : ""}
+                >
+                  Braves
+                </span>
                 <div className="filterBy__optionsDot"></div>
-                <span>Marlins</span>
+                <span
+                  onClick={() => handleMlbTeamClick(212)}
+                  className={mlbTeamFilter === 212 ? "marlins" : ""}
+                >
+                  Marlins
+                </span>
                 <div className="filterBy__optionsDot"></div>
-                <span>Mets</span>
+                <span
+                  onClick={() => handleMlbTeamClick(213)}
+                  className={mlbTeamFilter === 213 ? "mets" : ""}
+                >
+                  Mets
+                </span>
                 <div className="filterBy__optionsDot"></div>
-                <span>Nationals</span>
+                <span
+                  onClick={() => handleMlbTeamClick(214)}
+                  className={mlbTeamFilter === 214 ? "nationals" : ""}
+                >
+                  Nationals
+                </span>
                 <div className="filterBy__optionsDot"></div>
-                <span>Phillies</span>
+                <span
+                  onClick={() => handleMlbTeamClick(215)}
+                  className={mlbTeamFilter === 215 ? "phillies" : ""}
+                >
+                  Phillies
+                </span>
               </div>
             )}
             {mlbFilter && mlbConferenceFilter === 2 && mlbDivisionFilter === 2 && (
               <div className="filterBy__mlbTeam">
                 <div className="filterBy__optionsDivider"></div>
-                <span>Brewers</span>
+                <span
+                  onClick={() => handleMlbTeamClick(221)}
+                  className={mlbTeamFilter === 221 ? "brewers" : ""}
+                >
+                  Brewers
+                </span>
                 <div className="filterBy__optionsDot"></div>
-                <span>Cardinals</span>
+                <span
+                  onClick={() => handleMlbTeamClick(222)}
+                  className={mlbTeamFilter === 222 ? "cardinals" : ""}
+                >
+                  Cardinals
+                </span>
                 <div className="filterBy__optionsDot"></div>
-                <span>Cubs</span>
+                <span
+                  onClick={() => handleMlbTeamClick(223)}
+                  className={mlbTeamFilter === 223 ? "braves" : ""}
+                >
+                  Cubs
+                </span>
                 <div className="filterBy__optionsDot"></div>
-                <span>Pirates</span>
+                <span
+                  onClick={() => handleMlbTeamClick(224)}
+                  className={mlbTeamFilter === 224 ? "pirates" : ""}
+                >
+                  Pirates
+                </span>
                 <div className="filterBy__optionsDot"></div>
-                <span>Reds</span>
+                <span
+                  onClick={() => handleMlbTeamClick(225)}
+                  className={mlbTeamFilter === 225 ? "reds" : ""}
+                >
+                  Reds
+                </span>
               </div>
             )}
             {mlbFilter && mlbConferenceFilter === 2 && mlbDivisionFilter === 3 && (
               <div className="filterBy__mlbTeam">
                 <div className="filterBy__optionsDivider"></div>
-                <span>Diamondbacks</span>
+                <span
+                  onClick={() => handleMlbTeamClick(231)}
+                  className={mlbTeamFilter === 231 ? "diamondbacks" : ""}
+                >
+                  Diamondbacks
+                </span>
                 <div className="filterBy__optionsDot"></div>
-                <span>Dodgers</span>
+                <span
+                  onClick={() => handleMlbTeamClick(232)}
+                  className={mlbTeamFilter === 232 ? "dodgers" : ""}
+                >
+                  Dodgers
+                </span>
                 <div className="filterBy__optionsDot"></div>
-                <span>Giants</span>
+                <span
+                  onClick={() => handleMlbTeamClick(233)}
+                  className={mlbTeamFilter === 233 ? "giants" : ""}
+                >
+                  Giants
+                </span>
                 <div className="filterBy__optionsDot"></div>
-                <span>Padres</span>
+                <span
+                  onClick={() => handleMlbTeamClick(234)}
+                  className={mlbTeamFilter === 234 ? "padres" : ""}
+                >
+                  Padres
+                </span>
                 <div className="filterBy__optionsDot"></div>
-                <span>Rockies</span>
+                <span
+                  onClick={() => handleMlbTeamClick(235)}
+                  className={mlbTeamFilter === 235 ? "rockies" : ""}
+                >
+                  Rockies
+                </span>
               </div>
             )}
           </div>
         </div>
       </div>
-      <div className="mlbPost__list">
+      <div
+        className={sortBy ? "mlbPosts__list newest" : "mlbPosts__list oldest"}
+      >
         {mlbPosts.map((post, key) => (
           <PostCard post={post} key={key} />
         ))}

@@ -4,6 +4,7 @@
     background: $bg-color;
     min-height: 100vh;
     padding: 2rem 4rem;
+    // margin: auto;
     .mlbPosts__header {
         padding: 1rem 3rem;
         .mlbPosts__sortBy {
@@ -120,9 +121,177 @@
                 span {
                     cursor: pointer;
                     transition: all 0.3s ease-in-out;
+                    // AL East
+                    &.bluejays {
+                        color: $blue-jays-main;
+                        -webkit-text-stroke: 1px $blue-jays-secondary;
+                        text-shadow: 1px 1px 0px $blue-jays-secondary;
+                    }
+                    &.orioles {
+                        color: $orioles-main;
+                        -webkit-text-stroke: 1px $orioles-secondary;
+                        text-shadow: 1px 1px 0px $orioles-secondary;
+                    }
+                    &.rays {
+                        color: $rays-main;
+                        -webkit-text-stroke: 1px $rays-secondary;
+                        text-shadow: 1px 1px 0px $rays-secondary;
+                    }
+                    &.redsox {
+                        color: $red-sox-main;
+                        -webkit-text-stroke: 1px $red-sox-secondary;
+                        text-shadow: 1px 1px 0px $red-sox-secondary;
+                    }
+                    &.yankees {
+                        color: $yankees-main;
+                        -webkit-text-stroke: 1px $yankees-secondary;
+                        text-shadow: 1px 1px 0px $yankees-secondary;
+                    }
+                    // AL Central
+                    &.guardians {
+                        color: $guardians-main;
+                        -webkit-text-stroke: 1px $guardians-secondary;
+                        text-shadow: 1px 1px 0px $guardians-secondary;
+                    }
+                    &.royals {
+                        color: $royals-main;
+                        -webkit-text-stroke: 1px $royals-secondary;
+                        text-shadow: 1px 1px 0px $royals-secondary;
+                    }
+                    &.tigers {
+                        color: $tigers-main;
+                        -webkit-text-stroke: 1px $tigers-secondary;
+                        text-shadow: 1px 1px 0px $tigers-secondary;
+                    }
+                    &.twins {
+                        color: $twins-main;
+                        -webkit-text-stroke: 1px $twins-secondary;
+                        text-shadow: 1px 1px 0px $twins-secondary;
+                    }
+                    &.whitesox {
+                        color: $white-sox-main;
+                        -webkit-text-stroke: 1px $white-sox-secondary;
+                        text-shadow: 1px 1px 0px $white-sox-secondary;
+                    }
+                    // AL West
+                    &.angels {
+                        color: $angels-main;
+                        -webkit-text-stroke: 1px $angels-secondary;
+                        text-shadow: 1px 1px 0px $angels-secondary;
+                    }
+                    &.astros {
+                        color: $astros-main;
+                        -webkit-text-stroke: 1px $astros-secondary;
+                        text-shadow: 1px 1px 0px $astros-secondary;
+                    }
+                    &.athletics {
+                        color: $athletics-main;
+                        -webkit-text-stroke: 1px $athletics-secondary;
+                        text-shadow: 1px 1px 0px $athletics-secondary;
+                    }
+                    &.mariners {
+                        color: $mariners-main;
+                        -webkit-text-stroke: 1px $mariners-secondary;
+                        text-shadow: 1px 1px 0px $mariners-secondary;
+                    }
+                    &.rangers {
+                        color: $rangers-main;
+                        -webkit-text-stroke: 1px $rangers-secondary;
+                        text-shadow: 1px 1px 0px $rangers-secondary;
+                    }
+                    // NL East
+                    &.braves {
+                        color: $braves-main;
+                        -webkit-text-stroke: 1px $braves-secondary;
+                        text-shadow: 1px 1px 0px $braves-secondary;
+                    }
+                    &.marlins {
+                        color: $marlins-main;
+                        -webkit-text-stroke: 1px $marlins-secondary;
+                        text-shadow: 1px 1px 0px $marlins-secondary;
+                    }
+                    &.mets {
+                        color: $mets-main;
+                        -webkit-text-stroke: 1px $mets-secondary;
+                        text-shadow: 1px 1px 0px $mets-secondary;
+                    }
+                    &.nationals {
+                        color: $nationals-main;
+                        -webkit-text-stroke: 1px $nationals-secondary;
+                        text-shadow: 1px 1px 0px $nationals-secondary;
+                    }
+                    &.phillies {
+                        color: $phillies-main;
+                        -webkit-text-stroke: 1px $phillies-secondary;
+                        text-shadow: 1px 1px 0px $phillies-secondary;
+                    }
+                    // NL Central
+                    &.brewers {
+                        color: $brewers-main;
+                        -webkit-text-stroke: 1px $brewers-secondary;
+                        text-shadow: 1px 1px 0px $brewers-secondary;
+                    }
+                    &.cardinals {
+                        color: $mlb-cardinals-main;
+                        -webkit-text-stroke: 1px $mlb-cardinals-secondary;
+                        text-shadow: 1px 1px 0px $mlb-cardinals-secondary;
+                    }
+                    &.cubs {
+                        color: $cubs-main;
+                        -webkit-text-stroke: 1px $cubs-secondary;
+                        text-shadow: 1px 1px 0px $cubs-secondary;
+                    }
+                    &.pirates {
+                        color: $pirates-main;
+                        -webkit-text-stroke: 1px $pirates-secondary;
+                        text-shadow: 1px 1px 0px $pirates-secondary;
+                    }
+                    &.reds {
+                        color: $reds-main;
+                        -webkit-text-stroke: 1px $reds-secondary;
+                        text-shadow: 1px 1px 0px $reds-secondary;
+                    }
+                    // NL West
+                    &.diamondbacks {
+                        color: $diamondbacks-main;
+                        -webkit-text-stroke: 1px $diamondbacks-secondary;
+                        text-shadow: 1px 1px 0px $diamondbacks-secondary;
+                    }
+                    &.dodgers {
+                        color: $dodgers-main;
+                        -webkit-text-stroke: 1px $dodgers-secondary;
+                        text-shadow: 1px 1px 0px $dodgers-secondary;
+                    }
+                    &.giants {
+                        color: $mlb-giants-main;
+                        -webkit-text-stroke: 1px $mlb-giants-secondary;
+                        text-shadow: 1px 1px 0px $mlb-giants-secondary;
+                    }
+                    &.padres {
+                        color: $padres-main;
+                        -webkit-text-stroke: 1px $padres-secondary;
+                        text-shadow: 1px 1px 0px $padres-secondary;
+                    }
+                    &.rockies {
+                        color: $rockies-main;
+                        -webkit-text-stroke: 1px $rockies-secondary;
+                        text-shadow: 1px 1px 0px $rockies-secondary;
+                    }
                 }
             }
            }
+        }
+    }
+    .mlbPosts__list {
+        display: flex;
+        flex-direction: column;
+        // margin-left: 3rem;
+        margin: 0 5rem;
+        &.newest {
+            flex-direction: column-reverse;
+        }
+        &.oldest {
+            flex-direction: column;
         }
     }
 }
