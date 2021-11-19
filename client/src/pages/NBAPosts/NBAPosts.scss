@@ -1,1 +1,320 @@
 @import "../../utilities/variables.scss";
+
+.nbaPosts {
+    background: $bg-color;
+    min-height: 100vh;
+    padding: 2rem 0;
+    span {
+        cursor: pointer;
+    }
+    .nbaPosts__header {
+        padding: 1rem 4rem;
+        .nbaPosts__sortBy {
+            display: flex;
+            color: $font-color;
+            align-items: center;
+            .sortBy__header {
+                // margin-right: 1rem;
+                h6 {
+                    font-family: $main-font;
+                    font-size: 1.8rem;
+                    letter-spacing: 0.1rem;
+                }
+            }
+            .sortBy__options {
+                display: flex;
+                align-items: center;
+                span {
+                    font-family: $header-font;
+                    font-size: 1.5rem;
+                    margin: 0 1rem;
+                    transition: all 0.3s ease-in-out;
+                    &.newest {
+                        color: $light-orange;
+                        transform: scale(1.05);                       
+                    }
+                    &.oldest {
+                        color: $light-orange;
+                        transform: scale(1.05);
+                    }
+                }
+                div {
+                    border: 2px solid $blue;
+                    border-radius: 1rem;
+                    padding: 1rem 0;
+                }
+            }
+        }
+        .nbaPosts__filterBy {
+            display: flex;
+            color: $font-color;
+            align-items: center;
+            .filterBy__header {
+                margin-right: 1rem;
+                h6 {
+                    font-family: $main-font;
+                    font-size: 1.8rem;
+                    letter-spacing: 0.1rem;
+                }
+            }
+            .filterBy__options {
+                display: flex;
+                align-items: center;
+                font-family: $header-font;
+                font-size: 1.5rem;
+                .filterBy__optionsDivider {
+                    border: 2px solid $blue;
+                    margin: 0 0.7rem;
+                    border-radius: 1rem;
+                    opacity: 0.8;
+                }
+                .filterBy__optionsDot {
+                   background: $blue;
+                    border-radius: 50%;
+                    padding: 0.3rem;
+                    align-self: center;
+                    margin: 0 0.7rem;
+                    opacity: 0.6;
+    
+                }
+                .filterBy__nba {
+                    display: flex;
+                    .nba {
+                        color: $dark-orange;
+                    }
+                }
+                .filterBy__nbaConference {
+                    display: flex;
+                    span {
+                        transition: all 0.3s ease-in-out;
+                        &.east {
+                            color: $east-primary;
+                        }
+                        &.west {
+                            color: $west-primary;
+                        }
+                    }
+                    
+                }
+                .filterBy__nbaDivision {
+                    display: flex;
+                    span {
+                        transition: all 0.3s ease-in-out;
+                        &.atlantic, &.southwest {
+                            color: $nba-atlantic-southwest;
+                        }
+                        &.central, &.northwest {
+                            color: $nba-central-northwest;
+                        }
+                        &.southeast, &.pacific {
+                            color: $nba-southeast-pacific;
+                        }
+                    }
+                }
+                .filterBy__nbaTeam {
+                    display: flex;
+                        span {
+                            transition: all 0.3s ease-in-out;
+                            // East Atlantic
+                            &.celtics {
+                                color: $celtics-main;
+                                -webkit-text-stroke: 1px $celtics-secondary;
+                                text-shadow: 1px 1px 0px $celtics-secondary;
+                            }
+                            &.knicks {
+                                color: $knicks-main;
+                                -webkit-text-stroke: 1px $knicks-secondary;
+                                text-shadow: 1px 1px 0px $knicks-secondary;
+                            }
+                            &.nets {
+                                color: $nets-main;
+                                -webkit-text-stroke: 1px $nets-secondary;
+                                text-shadow: 1px 1px 0px $nets-secondary;
+                            }
+                            &.sixers {
+                                color: $sixers-main;
+                                -webkit-text-stroke: 1px $sixers-secondary;
+                                text-shadow: 1px 1px 0px $sixers-secondary;
+                            }
+                            &.raptors {
+                                color: $raptors-main;
+                                -webkit-text-stroke: 1px $raptors-secondary;
+                                text-shadow: 1px 1px 0px $raptors-secondary;
+                            }
+                            // East Central
+                            &.bucks {
+                                color: $bucks-main;
+                                -webkit-text-stroke: 1px $bucks-secondary;
+                                text-shadow: 1px 1px 0px $bucks-secondary;
+                            }
+                            &.bulls {
+                                color: $bulls-main;
+                                -webkit-text-stroke: 1px $bulls-secondary;
+                                text-shadow: 1px 1px 0px $bulls-secondary;
+                            }
+                            &.cavaliers {
+                                color: $cavaliers-main;
+                                -webkit-text-stroke: 1px $cavaliers-secondary;
+                                text-shadow: 1px 1px 0px $cavaliers-secondary;
+                            }
+                            &.pacers {
+                                color: $pacers-main;
+                                -webkit-text-stroke: 1px $pacers-secondary;
+                                text-shadow: 1px 1px 0px $pacers-secondary;
+                            }
+                            &.pistons {
+                                color: $pistons-main;
+                                -webkit-text-stroke: 1px $pistons-secondary;
+                                text-shadow: 1px 1px 0px $pistons-secondary;
+                            }
+                            // East Southeast
+                            &.hawks {
+                                color: $hawks-main;
+                                -webkit-text-stroke: 1px $hawks-secondary;
+                                text-shadow: 1px 1px 0px $hawks-secondary;
+                            }
+                            &.heat {
+                                color: $heat-main;
+                                -webkit-text-stroke: 1px $heat-secondary;
+                                text-shadow: 1px 1px 0px $heat-secondary;
+                            }
+                            &.hornets {
+                                color: $hornets-main;
+                                -webkit-text-stroke: 1px $hornets-secondary;
+                                text-shadow: 1px 1px 0px $hornets-secondary;
+                            }
+                            &.magic {
+                                color: $magic-main;
+                                -webkit-text-stroke: 1px $magic-secondary;
+                                text-shadow: 1px 1px 0px $magic-secondary;
+                            }
+                            &.wizards {
+                                color: $wizards-main;
+                                -webkit-text-stroke: 1px $wizards-secondary;
+                                text-shadow: 1px 1px 0px $wizards-secondary;
+                            }
+                            // WEST Northwest
+                            &.jazz {
+                                color: $jazz-main;
+                                -webkit-text-stroke: 1px $jazz-secondary;
+                                text-shadow: 1px 1px 0px $jazz-secondary;
+                            }
+                            &.nuggets {
+                                color: $nuggets-main;
+                                -webkit-text-stroke: 1px $nuggets-secondary;
+                                text-shadow: 1px 1px 0px $nuggets-secondary;
+                            }
+                            &.thunder {
+                                color: $thunder-main;
+                                -webkit-text-stroke: 1px $thunder-secondary;
+                                text-shadow: 1px 1px 0px $thunder-secondary;
+                            }
+                            &.timberwolves {
+                                color: $timberwolves-main;
+                                -webkit-text-stroke: 1px $timberwolves-secondary;
+                                text-shadow: 1px 1px 0px $timberwolves-secondary;
+                            }
+                            &.trailblazers {
+                                color: $trail-blazers-main;
+                                -webkit-text-stroke: 1px $trail-blazers-secondary;
+                                text-shadow: 1px 1px 0px $trail-blazers-secondary;
+                            }
+                            // West Pacific
+                            &.clippers {
+                                color: $clippers-main;
+                                -webkit-text-stroke: 1px $clippers-secondary;
+                                text-shadow: 1px 1px 0px $clippers-secondary;
+                            }
+                            &.kings {
+                                color: $kings-main;
+                                -webkit-text-stroke: 1px $kings-secondary;
+                                text-shadow: 1px 1px 0px $kings-secondary;
+                            }
+                            &.lakers {
+                                color: $lakers-main;
+                                -webkit-text-stroke: 1px $lakers-secondary;
+                                text-shadow: 1px 1px 0px $lakers-secondary;
+                            }
+                            &.suns {
+                                color: $suns-main;
+                                -webkit-text-stroke: 1px $suns-secondary;
+                                text-shadow: 1px 1px 0px $suns-secondary;
+                            }
+                            &.warriors {
+                                color: $warriors-main;
+                                -webkit-text-stroke: 1px $warriors-secondary;
+                                text-shadow: 1px 1px 0px $warriors-secondary;
+                            }
+                            // West Southwest
+                            &.grizzlies {
+                                color: $grizzlies-main;
+                                -webkit-text-stroke: 1px $grizzlies-secondary;
+                                text-shadow: 1px 1px 0px $grizzlies-secondary;
+                            }
+                            &.mavericks {
+                                color: $mavericks-main;
+                                -webkit-text-stroke: 1px $mavericks-secondary;
+                                text-shadow: 1px 1px 0px $mavericks-secondary;
+                            }
+                            &.pelicans {
+                                color: $pelicans-main;
+                                -webkit-text-stroke: 1px $pelicans-secondary;
+                                text-shadow: 1px 1px 0px $pelicans-secondary;
+                            }
+                            &.rockets {
+                                color: $rockets-main;
+                                -webkit-text-stroke: 1px $rockets-secondary;
+                                text-shadow: 1px 1px 0px $rockets-secondary;
+                            }
+                            &.spurs {
+                                color: $spurs-main;
+                                -webkit-text-stroke: 1px $spurs-secondary;
+                                text-shadow: 1px 1px 0px $spurs-secondary;
+                            }
+                          }
+                          
+                }
+            }
+        }
+    }
+    .nbaPosts__main {
+        display: flex;
+        padding: 0 10rem;
+        .nbaPosts__pageLinks {
+            display: flex;
+            flex-direction: column;
+            padding-top: 7rem;
+            .link {
+                color: $font-color;
+                opacity: 0.5;
+                font-size: 3rem;
+                margin-bottom: 3rem;
+                transition: all 0.3s ease-in-out;
+                &.active {
+                    opacity: 0.6;
+                    transform: scale(1.05);
+                    text-shadow: 0 0 15px $bg-color, 0 0 20px $font-color
+                }
+                &:hover {
+                    opacity: 0.6;
+                    transform: scale(1.05);
+                    text-shadow: 0 0 15px $bg-color, 0 0 10px $font-color;
+                }
+            }
+        }
+        .nbaPosts__list {
+            // border: 2px solid yellow;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            // margin-left: 3rem;
+            margin: 0 5rem;
+            &.newest {
+                flex-direction: column-reverse;
+            }
+            &.oldest {
+                flex-direction: column;
+            }
+        }
+    }
+}

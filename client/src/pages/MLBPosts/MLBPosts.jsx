@@ -7,7 +7,7 @@ import PostCard from "../../components/PostCard/PostCard";
 
 const MLBPosts = () => {
   const [listOfPosts, setListOfPosts] = useState([]);
-  const [sortBy, setSortBy] = useState(true);
+  const [sortBy, setSortBy] = useState(false);
   const [mlbFilter, setMlbFilter] = useState(true);
   const [mlbConferenceFilter, setMlbConferenceFilter] = useState(0);
   const [mlbDivisionFilter, setMlbDivisionFilter] = useState(0);
@@ -42,7 +42,9 @@ const MLBPosts = () => {
   };
 
   // Filters
-  const mlbPostsList = listOfPosts.filter((post) => post.league === "MLB");
+  const mlbPostsList = listOfPosts.filter(
+    (mlbPost) => mlbPost.league === "MLB"
+  );
   // AL Posts
   const mlbAlPostsList = mlbPostsList.filter(
     (alPost) =>
@@ -246,14 +248,14 @@ const MLBPosts = () => {
               onClick={() => setSortBy(true)}
               className={sortBy ? "newest" : ""}
             >
-              Newest
+              NEWEST
             </span>
             <div className="sortBy__optionsDivider"></div>
             <span
               onClick={() => setSortBy(false)}
               className={!sortBy ? "oldest" : ""}
             >
-              Oldest
+              OLDEST
             </span>
           </div>
         </div>
@@ -292,21 +294,21 @@ const MLBPosts = () => {
                   onClick={() => handleMlbDivisionClick(1)}
                   className={mlbDivisionFilter === 1 ? "east" : ""}
                 >
-                  East
+                  EAST
                 </span>
                 <div className="filterBy__optionsDot"></div>
                 <span
                   onClick={() => handleMlbDivisionClick(2)}
                   className={mlbDivisionFilter === 2 ? "central" : ""}
                 >
-                  Central
+                  CENTRAL
                 </span>
                 <div className="filterBy__optionsDot"></div>
                 <span
                   onClick={() => handleMlbDivisionClick(3)}
                   className={mlbDivisionFilter === 3 ? "west" : ""}
                 >
-                  West
+                  WEST
                 </span>
               </div>
             )}
@@ -317,35 +319,35 @@ const MLBPosts = () => {
                   onClick={() => handleMlbTeamClick(111)}
                   className={mlbTeamFilter === 111 ? "bluejays" : ""}
                 >
-                  Blue Jays
+                  BLUE JAYS
                 </span>
                 <div className="filterBy__optionsDot"></div>
                 <span
                   onClick={() => handleMlbTeamClick(112)}
                   className={mlbTeamFilter === 112 ? "orioles" : ""}
                 >
-                  Orioles
+                  ORIOLES
                 </span>
                 <div className="filterBy__optionsDot"></div>
                 <span
                   onClick={() => handleMlbTeamClick(113)}
                   className={mlbTeamFilter === 113 ? "rays" : ""}
                 >
-                  Rays
+                  RAYS
                 </span>
                 <div className="filterBy__optionsDot"></div>
                 <span
                   onClick={() => handleMlbTeamClick(114)}
                   className={mlbTeamFilter === 114 ? "redsox" : ""}
                 >
-                  Red Sox
+                  RED SOX
                 </span>
                 <div className="filterBy__optionsDot"></div>
                 <span
                   onClick={() => handleMlbTeamClick(115)}
                   className={mlbTeamFilter === 115 ? "yankees" : ""}
                 >
-                  Yankees
+                  YANKEES
                 </span>
               </div>
             )}
@@ -356,35 +358,35 @@ const MLBPosts = () => {
                   onClick={() => handleMlbTeamClick(121)}
                   className={mlbTeamFilter === 121 ? "guardians" : ""}
                 >
-                  Guardians
+                  GUARDIANS
                 </span>
                 <div className="filterBy__optionsDot"></div>
                 <span
                   onClick={() => handleMlbTeamClick(122)}
                   className={mlbTeamFilter === 122 ? "royals" : ""}
                 >
-                  Royals
+                  ROYALS
                 </span>
                 <div className="filterBy__optionsDot"></div>
                 <span
                   onClick={() => handleMlbTeamClick(123)}
                   className={mlbTeamFilter === 123 ? "tigers" : ""}
                 >
-                  Tigers
+                  TIGERS
                 </span>
                 <div className="filterBy__optionsDot"></div>
                 <span
                   onClick={() => handleMlbTeamClick(124)}
                   className={mlbTeamFilter === 124 ? "twins" : ""}
                 >
-                  Twins
+                  TWINS
                 </span>
                 <div className="filterBy__optionsDot"></div>
                 <span
                   onClick={() => handleMlbTeamClick(125)}
                   className={mlbTeamFilter === 125 ? "whitesox" : ""}
                 >
-                  White Sox
+                  WHITE SOX
                 </span>
               </div>
             )}
@@ -395,35 +397,35 @@ const MLBPosts = () => {
                   onClick={() => handleMlbTeamClick(131)}
                   className={mlbTeamFilter === 131 ? "angels" : ""}
                 >
-                  Angels
+                  ANGELS
                 </span>
                 <div className="filterBy__optionsDot"></div>
                 <span
                   onClick={() => handleMlbTeamClick(132)}
                   className={mlbTeamFilter === 132 ? "astros" : ""}
                 >
-                  Astros
+                  ASTROS
                 </span>
                 <div className="filterBy__optionsDot"></div>
                 <span
                   onClick={() => handleMlbTeamClick(133)}
                   className={mlbTeamFilter === 133 ? "athletics" : ""}
                 >
-                  Athletics
+                  ATHLETICS
                 </span>
                 <div className="filterBy__optionsDot"></div>
                 <span
                   onClick={() => handleMlbTeamClick(134)}
                   className={mlbTeamFilter === 134 ? "mariners" : ""}
                 >
-                  Mariners
+                  MARINERS
                 </span>
                 <div className="filterBy__optionsDot"></div>
                 <span
                   onClick={() => handleMlbTeamClick(135)}
                   className={mlbTeamFilter === 135 ? "rangers" : ""}
                 >
-                  Rangers
+                  RANGERS
                 </span>
               </div>
             )}
@@ -434,35 +436,35 @@ const MLBPosts = () => {
                   onClick={() => handleMlbTeamClick(211)}
                   className={mlbTeamFilter === 211 ? "braves" : ""}
                 >
-                  Braves
+                  BRAVES
                 </span>
                 <div className="filterBy__optionsDot"></div>
                 <span
                   onClick={() => handleMlbTeamClick(212)}
                   className={mlbTeamFilter === 212 ? "marlins" : ""}
                 >
-                  Marlins
+                  MARLINS
                 </span>
                 <div className="filterBy__optionsDot"></div>
                 <span
                   onClick={() => handleMlbTeamClick(213)}
                   className={mlbTeamFilter === 213 ? "mets" : ""}
                 >
-                  Mets
+                  METS
                 </span>
                 <div className="filterBy__optionsDot"></div>
                 <span
                   onClick={() => handleMlbTeamClick(214)}
                   className={mlbTeamFilter === 214 ? "nationals" : ""}
                 >
-                  Nationals
+                  NATIONALS
                 </span>
                 <div className="filterBy__optionsDot"></div>
                 <span
                   onClick={() => handleMlbTeamClick(215)}
                   className={mlbTeamFilter === 215 ? "phillies" : ""}
                 >
-                  Phillies
+                  PHILLIES
                 </span>
               </div>
             )}
@@ -473,35 +475,35 @@ const MLBPosts = () => {
                   onClick={() => handleMlbTeamClick(221)}
                   className={mlbTeamFilter === 221 ? "brewers" : ""}
                 >
-                  Brewers
+                  BREWERS
                 </span>
                 <div className="filterBy__optionsDot"></div>
                 <span
                   onClick={() => handleMlbTeamClick(222)}
                   className={mlbTeamFilter === 222 ? "cardinals" : ""}
                 >
-                  Cardinals
+                  CARDINALS
                 </span>
                 <div className="filterBy__optionsDot"></div>
                 <span
                   onClick={() => handleMlbTeamClick(223)}
                   className={mlbTeamFilter === 223 ? "braves" : ""}
                 >
-                  Cubs
+                  CUBS
                 </span>
                 <div className="filterBy__optionsDot"></div>
                 <span
                   onClick={() => handleMlbTeamClick(224)}
                   className={mlbTeamFilter === 224 ? "pirates" : ""}
                 >
-                  Pirates
+                  PIRATES
                 </span>
                 <div className="filterBy__optionsDot"></div>
                 <span
                   onClick={() => handleMlbTeamClick(225)}
                   className={mlbTeamFilter === 225 ? "reds" : ""}
                 >
-                  Reds
+                  REDS
                 </span>
               </div>
             )}
@@ -512,34 +514,35 @@ const MLBPosts = () => {
                   onClick={() => handleMlbTeamClick(231)}
                   className={mlbTeamFilter === 231 ? "diamondbacks" : ""}
                 >
-                  Diamondbacks
+                  DIAMONDBACKS
                 </span>
                 <div className="filterBy__optionsDot"></div>
                 <span
                   onClick={() => handleMlbTeamClick(232)}
                   className={mlbTeamFilter === 232 ? "dodgers" : ""}
                 >
-                  Dodgers
+                  DODGERS
                 </span>
                 <div className="filterBy__optionsDot"></div>
                 <span
                   onClick={() => handleMlbTeamClick(233)}
                   className={mlbTeamFilter === 233 ? "giants" : ""}
                 >
-                  Giants
+                  GIANTS
                 </span>
                 <div className="filterBy__optionsDot"></div>
                 <span
                   onClick={() => handleMlbTeamClick(234)}
                   className={mlbTeamFilter === 234 ? "padres" : ""}
                 >
-                  Padres
+                  PADRES
                 </span>
                 <div className="filterBy__optionsDot"></div>
                 <span
                   onClick={() => handleMlbTeamClick(235)}
                   className={mlbTeamFilter === 235 ? "rockies" : ""}
                 >
+                  {/* ROCKIES */}
                   Rockies
                 </span>
               </div>
@@ -550,7 +553,7 @@ const MLBPosts = () => {
       {/* Card display filters */}
       <div className="mlbPosts__main">
         <div className="mlbPosts__pageLinks">
-          <Link to="/mlb" className="link">
+          <Link to="/mlb" className="link active">
             <i className="fas fa-baseball-ball"></i>
           </Link>
           <Link to="/nba" className="link">
