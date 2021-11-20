@@ -10,181 +10,181 @@
 
     //    MLB POST CARD COLORS START
     // AL East
-    &.bluejays {
-        border: 2px solid $blue-jays-secondary;
-        background: $blue-jays-main;
+    &.mlb-bluejays {
+        border: 2px solid $mlb-blue-jays-secondary;
+        background: $mlb-blue-jays-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $blue-jays-secondary;
+            box-shadow: 0px 0px 12px $mlb-blue-jays-secondary;
         }
     }
-    &.orioles {
-        border: 2px solid $orioles-secondary;
-        background: $orioles-main;
+    &.mlb-orioles {
+        border: 2px solid $mlb-orioles-secondary;
+        background: $mlb-orioles-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $orioles-secondary;
+            box-shadow: 0px 0px 12px $mlb-orioles-secondary;
         }
     }
-    &.rays {
-        border: 2px solid $rays-secondary;
-        background: $rays-main;
+    &.mlb-rays {
+        border: 2px solid $mlb-rays-secondary;
+        background: $mlb-rays-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $rays-secondary;
+            box-shadow: 0px 0px 12px $mlb-rays-secondary;
         }
     }
-    &.redsox {
-        border: 2px solid $red-sox-secondary;
-        background: $red-sox-main;
+    &.mlb-redsox {
+        border: 2px solid $mlb-red-sox-secondary;
+        background: $mlb-red-sox-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $red-sox-secondary;
+            box-shadow: 0px 0px 12px $mlb-red-sox-secondary;
         }
     }
-    &.yankees {
-        border: 2px solid $yankees-secondary;
-        background: $yankees-main;
+    &.mlb-yankees {
+        border: 2px solid $mlb-yankees-secondary;
+        background: $mlb-yankees-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $yankees-secondary;
+            box-shadow: 0px 0px 12px $mlb-yankees-secondary;
         }
     }
 
     // AL Central
-    &.guardians {
-        border: 2px solid $guardians-secondary;
-        background: $guardians-main;
+    &.mlb-guardians {
+        border: 2px solid $mlb-guardians-secondary;
+        background: $mlb-guardians-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $guardians-secondary;
+            box-shadow: 0px 0px 12px $mlb-guardians-secondary;
         }
     }
-    &.royals {
-        border: 2px solid $royals-secondary;
-        background: $royals-main;
+    &.mlb-royals {
+        border: 2px solid $mlb-royals-secondary;
+        background: $mlb-royals-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $royals-secondary;
+            box-shadow: 0px 0px 12px $mlb-royals-secondary;
         }
     }
-    &.tigers {
-        border: 2px solid $tigers-secondary;
-        background: $tigers-main;
+    &.mlb-tigers {
+        border: 2px solid $mlb-tigers-secondary;
+        background: $mlb-tigers-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $tigers-secondary;
+            box-shadow: 0px 0px 12px $mlb-tigers-secondary;
         }
     }
-    &.twins {
-        border: 2px solid $twins-secondary;
-        background: $twins-main;
+    &.mlb-twins {
+        border: 2px solid $mlb-twins-secondary;
+        background: $mlb-twins-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $twins-secondary;
+            box-shadow: 0px 0px 12px $mlb-twins-secondary;
         }
     }
-    &.whitesox {
-        border: 2px solid $white-sox-secondary;
-        background: $white-sox-main;
+    &.mlb-whitesox {
+        border: 2px solid $mlb-white-sox-secondary;
+        background: $mlb-white-sox-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $white-sox-secondary;
+            box-shadow: 0px 0px 12px $mlb-white-sox-secondary;
         }
     }
     // AL West
-    &.angels {
-        border: 2px solid $angels-secondary;
-        background: $angels-main;
+    &.mlb-angels {
+        border: 2px solid $mlb-angels-secondary;
+        background: $mlb-angels-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $angels-secondary;
+            box-shadow: 0px 0px 12px $mlb-angels-secondary;
         }
     }
-    &.astros {
-        border: 2px solid $astros-secondary;
-        background: $astros-main;
+    &.mlb-astros {
+        border: 2px solid $mlb-astros-secondary;
+        background: $mlb-astros-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $astros-secondary;
+            box-shadow: 0px 0px 12px $mlb-astros-secondary;
         }
     }
-    &.athletics {
-        border: 2px solid $athletics-secondary;
-        background: $athletics-main;
+    &.mlb-athletics {
+        border: 2px solid $mlb-athletics-secondary;
+        background: $mlb-athletics-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $athletics-secondary;
+            box-shadow: 0px 0px 12px $mlb-athletics-secondary;
         }
     }
-    &.mariners {
-        border: 2px solid $mariners-secondary;
-        background: $mariners-main;
+    &.mlb-mariners {
+        border: 2px solid $mlb-mariners-secondary;
+        background: $mlb-mariners-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $mariners-secondary;
+            box-shadow: 0px 0px 12px $mlb-mariners-secondary;
         }
     }
-    &.rangers {
-        border: 2px solid $rangers-secondary;
-        background: $rangers-main;
+    &.mlb-rangers {
+        border: 2px solid $mlb-rangers-secondary;
+        background: $mlb-rangers-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $rangers-secondary;
+            box-shadow: 0px 0px 12px $mlb-rangers-secondary;
         }
     }
 
     // NL East
-    &.braves {
-        border: 2px solid $braves-secondary;
-        background: $braves-main;
+    &.mlb-braves {
+        border: 2px solid $mlb-braves-secondary;
+        background: $mlb-braves-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $braves-secondary;
+            box-shadow: 0px 0px 12px $mlb-braves-secondary;
         }
     }
-    &.marlins {
-        border: 2px solid $marlins-secondary;
-        background: $marlins-main;
+    &.mlb-marlins {
+        border: 2px solid $mlb-marlins-secondary;
+        background: $mlb-marlins-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $marlins-secondary;
+            box-shadow: 0px 0px 12px $mlb-marlins-secondary;
         }
     }
-    &.mets {
-        border: 2px solid $mets-secondary;
-        background: $mets-main;
+    &.mlb-mets {
+        border: 2px solid $mlb-mets-secondary;
+        background: $mlb-mets-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $mets-secondary;
+            box-shadow: 0px 0px 12px $mlb-mets-secondary;
         }
     }
-    &.nationals {
-        border: 2px solid $nationals-secondary;
-        background: $nationals-main;
+    &.mlb-nationals {
+        border: 2px solid $mlb-nationals-secondary;
+        background: $mlb-nationals-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $nationals-secondary;
+            box-shadow: 0px 0px 12px $mlb-nationals-secondary;
         }
     }
-    &.phillies {
-        border: 2px solid $phillies-secondary;
-        background: $phillies-main;
+    &.mlb-phillies {
+        border: 2px solid $mlb-phillies-secondary;
+        background: $mlb-phillies-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $phillies-secondary;
+            box-shadow: 0px 0px 12px $mlb-phillies-secondary;
         }
     }
     // NL Central
-    &.brewers {
-        border: 2px solid $brewers-secondary;
-        background: $brewers-main;
+    &.mlb-brewers {
+        border: 2px solid $mlb-brewers-secondary;
+        background: $mlb-brewers-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $brewers-secondary;
+            box-shadow: 0px 0px 12px $mlb-brewers-secondary;
         }
     }
-    &.cardinals {
+    &.mlb-cardinals {
         border: 2px solid $mlb-cardinals-secondary;
         background: $mlb-cardinals-main;
         &:hover {
@@ -192,49 +192,49 @@
             box-shadow: 0px 0px 12px $mlb-cardinals-secondary;
         }
     }
-    &.cubs {
-        border: 2px solid $cubs-secondary;
-        background: $cubs-main;
+    &.mlb-cubs {
+        border: 2px solid $mlb-cubs-secondary;
+        background: $mlb-cubs-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $cubs-secondary;
+            box-shadow: 0px 0px 12px $mlb-cubs-secondary;
         }
     }
-    &.pirates {
-        border: 2px solid $pirates-secondary;
-        background: $pirates-main;
+    &.mlb-pirates {
+        border: 2px solid $mlb-pirates-secondary;
+        background: $mlb-pirates-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $pirates-secondary;
+            box-shadow: 0px 0px 12px $mlb-pirates-secondary;
         }
     }
-    &.reds {
-        border: 2px solid $reds-secondary;
-        background: $reds-main;
+    &.mlb-reds {
+        border: 2px solid $mlb-reds-secondary;
+        background: $mlb-reds-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $reds-secondary;
+            box-shadow: 0px 0px 12px $mlb-reds-secondary;
         }
     }
     // NL West
 
-    &.diamondbacks {
-        border: 2px solid $diamondbacks-secondary;
-        background: $diamondbacks-main;
+    &.mlb-diamondbacks {
+        border: 2px solid $mlb-diamondbacks-secondary;
+        background: $mlb-diamondbacks-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $diamondbacks-secondary;
+            box-shadow: 0px 0px 12px $mlb-diamondbacks-secondary;
         }
     }
-    &.dodgers {
-        border: 2px solid $dodgers-secondary;
-        background: $dodgers-main;
+    &.mlb-dodgers {
+        border: 2px solid $mlb-dodgers-secondary;
+        background: $mlb-dodgers-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $dodgers-secondary;
+            box-shadow: 0px 0px 12px $mlb-dodgers-secondary;
         }
     }
-    &.giants {
+    &.mlb-giants {
         border: 2px solid $mlb-giants-secondary;
         background: $mlb-giants-main;
         &:hover {
@@ -242,274 +242,500 @@
             box-shadow: 0px 0px 12px $mlb-giants-secondary;
         }
     }
-    &.padres {
-        border: 2px solid $padres-secondary;
-        background: $padres-main;
+    &.mlb-padres {
+        border: 2px solid $mlb-padres-secondary;
+        background: $mlb-padres-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $padres-secondary;
+            box-shadow: 0px 0px 12px $mlb-padres-secondary;
         }
     }
-    &.rockies {
-        border: 2px solid $rockies-secondary;
-        background: $rockies-main;
+    &.mlb-rockies {
+        border: 2px solid $mlb-rockies-secondary;
+        background: $mlb-rockies-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $rockies-secondary;
+            box-shadow: 0px 0px 12px $mlb-rockies-secondary;
         }
     }
     // MLB POST CARD COLORS END
     // NBA POST CARD COLORS START
     // East Atlantic
-    &.celtics {
-        border: 2px solid $celtics-secondary;
-        background: $celtics-main;
+    &.nba-celtics {
+        border: 2px solid $nba-celtics-secondary;
+        background: $nba-celtics-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $celtics-secondary;
+            box-shadow: 0px 0px 12px $nba-celtics-secondary;
         }
     }
-    &.knicks {
-        border: 2px solid $knicks-secondary;
-        background: $knicks-main;
+    &.nba-knicks {
+        border: 2px solid $nba-knicks-secondary;
+        background: $nba-knicks-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $knicks-secondary;
+            box-shadow: 0px 0px 12px $nba-knicks-secondary;
         }
     }
-    &.nets {
-        border: 2px solid $nets-secondary;
-        background: $nets-main;
+    &.nba-nets {
+        border: 2px solid $nba-nets-secondary;
+        background: $nba-nets-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $nets-secondary;
+            box-shadow: 0px 0px 12px $nba-nets-secondary;
         }
     }
-    &.sixers {
-        border: 2px solid $sixers-secondary;
-        background: $sixers-main;
+    &.nba-sixers {
+        border: 2px solid $nba-sixers-secondary;
+        background: $nba-sixers-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $sixers-secondary;
+            box-shadow: 0px 0px 12px $nba-sixers-secondary;
         }
     }
-    &.raptors {
-        border: 2px solid $raptors-secondary;
-        background: $raptors-main;
+    &.nba-raptors {
+        border: 2px solid $nba-raptors-secondary;
+        background: $nba-raptors-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $raptors-secondary;
+            box-shadow: 0px 0px 12px $nba-raptors-secondary;
         }
     }
 
     // East Central
-    &.bucks {
-        border: 2px solid $bucks-secondary;
-        background: $bucks-main;
+    &.nba-bucks {
+        border: 2px solid $nba-bucks-secondary;
+        background: $nba-bucks-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $bucks-secondary;
+            box-shadow: 0px 0px 12px $nba-bucks-secondary;
         }
     }
-    &.bulls {
-        border: 2px solid $bulls-secondary;
-        background: $bulls-main;
+    &.nba-bulls {
+        border: 2px solid $nba-bulls-secondary;
+        background: $nba-bulls-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $bulls-secondary;
+            box-shadow: 0px 0px 12px $nba-bulls-secondary;
         }
     }
-    &.cavaliers {
-        border: 2px solid $cavaliers-secondary;
-        background: $cavaliers-main;
+    &.nba-cavaliers {
+        border: 2px solid $nba-cavaliers-secondary;
+        background: $nba-cavaliers-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $cavaliers-secondary;
+            box-shadow: 0px 0px 12px $nba-cavaliers-secondary;
         }
     }
-    &.pacers {
-        border: 2px solid $pacers-secondary;
-        background: $pacers-main;
+    &.nba-pacers {
+        border: 2px solid $nba-pacers-secondary;
+        background: $nba-pacers-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $pacers-secondary;
+            box-shadow: 0px 0px 12px $nba-pacers-secondary;
         }
     }
-    &.pistons {
-        border: 2px solid $pistons-secondary;
-        background: $pistons-main;
+    &.nba-pistons {
+        border: 2px solid $nba-pistons-secondary;
+        background: $nba-pistons-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $pistons-secondary;
+            box-shadow: 0px 0px 12px $nba-pistons-secondary;
         }
     }
     // East Southeast
-    &.hawks {
-        border: 2px solid $hawks-secondary;
-        background: $hawks-main;
+    &.nba-hawks {
+        border: 2px solid $nba-hawks-secondary;
+        background: $nba-hawks-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $hawks-secondary;
+            box-shadow: 0px 0px 12px $nba-hawks-secondary;
         }
     }
-    &.heat {
-        border: 2px solid $heat-secondary;
-        background: $heat-main;
+    &.nba-heat {
+        border: 2px solid $nba-heat-secondary;
+        background: $nba-heat-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $heat-secondary;
+            box-shadow: 0px 0px 12px $nba-heat-secondary;
         }
     }
-    &.hornets {
-        border: 2px solid $hornets-secondary;
-        background: $hornets-main;
+    &.nba-hornets {
+        border: 2px solid $nba-hornets-secondary;
+        background: $nba-hornets-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $hornets-secondary;
+            box-shadow: 0px 0px 12px $nba-hornets-secondary;
         }
     }
-    &.magic {
-        border: 2px solid $magic-secondary;
-        background: $magic-main;
+    &.nba-magic {
+        border: 2px solid $nba-magic-secondary;
+        background: $nba-magic-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $magic-secondary;
+            box-shadow: 0px 0px 12px $nba-magic-secondary;
         }
     }
-    &.wizards {
-        border: 2px solid $wizards-secondary;
-        background: $wizards-main;
+    &.nba-wizards {
+        border: 2px solid $nba-wizards-secondary;
+        background: $nba-wizards-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $wizards-secondary;
+            box-shadow: 0px 0px 12px $nba-wizards-secondary;
         }
     }
 
     // West Northwest
-    &.jazz {
-        border: 2px solid $jazz-secondary;
-        background: $jazz-main;
+    &.nba-jazz {
+        border: 2px solid $nba-jazz-secondary;
+        background: $nba-jazz-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $jazz-secondary;
+            box-shadow: 0px 0px 12px $nba-jazz-secondary;
         }
     }
-    &.nuggets {
-        border: 2px solid $nuggets-secondary;
-        background: $nuggets-main;
+    &.nba-nuggets {
+        border: 2px solid $nba-nuggets-secondary;
+        background: $nba-nuggets-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $nuggets-secondary;
+            box-shadow: 0px 0px 12px $nba-nuggets-secondary;
         }
     }
-    &.thunder {
-        border: 2px solid $thunder-secondary;
-        background: $thunder-main;
+    &.nba-thunder {
+        border: 2px solid $nba-thunder-secondary;
+        background: $nba-thunder-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $thunder-secondary;
+            box-shadow: 0px 0px 12px $nba-thunder-secondary;
         }
     }
-    &.timberwolves {
-        border: 2px solid $timberwolves-secondary;
-        background: $timberwolves-main;
+    &.nba-timberwolves {
+        border: 2px solid $nba-timberwolves-secondary;
+        background: $nba-timberwolves-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $timberwolves-secondary;
+            box-shadow: 0px 0px 12px $nba-timberwolves-secondary;
         }
     }
-    &.trailblazers {
-        border: 2px solid $trail-blazers-secondary;
-        background: $trail-blazers-main;
+    &.nba-trailblazers {
+        border: 2px solid $nba-trail-blazers-secondary;
+        background: $nba-trail-blazers-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $trail-blazers-secondary;
+            box-shadow: 0px 0px 12px $nba-trail-blazers-secondary;
         }
     }
     // West Pacific
-    &.clippers {
-        border: 2px solid $clippers-secondary;
-        background: $clippers-main;
+    &.nba-clippers {
+        border: 2px solid $nba-clippers-secondary;
+        background: $nba-clippers-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $clippers-secondary;
+            box-shadow: 0px 0px 12px $nba-clippers-secondary;
         }
     }
-    &.kings {
-        border: 2px solid $kings-secondary;
-        background: $kings-main;
+    &.nba-kings {
+        border: 2px solid $nba-kings-secondary;
+        background: $nba-kings-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $kings-secondary;
+            box-shadow: 0px 0px 12px $nba-kings-secondary;
         }
     }
-    &.lakers {
-        border: 2px solid $lakers-secondary;
-        background: $lakers-main;
+    &.nba-lakers {
+        border: 2px solid $nba-lakers-secondary;
+        background: $nba-lakers-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $lakers-secondary;
+            box-shadow: 0px 0px 12px $nba-lakers-secondary;
         }
     }
-    &.suns {
-        border: 2px solid $suns-secondary;
-        background: $suns-main;
+    &.nba-suns {
+        border: 2px solid $nba-suns-secondary;
+        background: $nba-suns-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $suns-secondary;
+            box-shadow: 0px 0px 12px $nba-suns-secondary;
         }
     }
-    &.warriors {
-        border: 2px solid $warriors-secondary;
-        background: $warriors-main;
+    &.nba-warriors {
+        border: 2px solid $nba-warriors-secondary;
+        background: $nba-warriors-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $warriors-secondary;
+            box-shadow: 0px 0px 12px $nba-warriors-secondary;
         }
     }
     // West Southwest
 
-    &.grizzlies {
-        border: 2px solid $grizzlies-secondary;
-        background: $grizzlies-main;
+    &.nba-grizzlies {
+        border: 2px solid $nba-grizzlies-secondary;
+        background: $nba-grizzlies-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $grizzlies-secondary;
+            box-shadow: 0px 0px 12px $nba-grizzlies-secondary;
         }
     }
-    &.mavericks {
-        border: 2px solid $mavericks-secondary;
-        background: $mavericks-main;
+    &.nba-mavericks {
+        border: 2px solid $nba-mavericks-secondary;
+        background: $nba-mavericks-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $mavericks-secondary;
+            box-shadow: 0px 0px 12px $nba-mavericks-secondary;
         }
     }
-    &.pelicans {
-        border: 2px solid $pelicans-secondary;
-        background: $pelicans-main;
+    &.nba-pelicans {
+        border: 2px solid $nba-pelicans-secondary;
+        background: $nba-pelicans-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $pelicans-secondary;
+            box-shadow: 0px 0px 12px $nba-pelicans-secondary;
         }
     }
-    &.rockets {
-        border: 2px solid $rockets-secondary;
-        background: $rockets-main;
+    &.nba-rockets {
+        border: 2px solid $nba-rockets-secondary;
+        background: $nba-rockets-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $rockets-secondary;
+            box-shadow: 0px 0px 12px $nba-rockets-secondary;
         }
     }
-    &.spurs {
-        border: 2px solid $spurs-secondary;
-        background: $spurs-main;
+    &.nba-spurs {
+        border: 2px solid $nba-spurs-secondary;
+        background: $nba-spurs-main;
         &:hover {
             transform: scale(1.01);
-            box-shadow: 0px 0px 12px $spurs-secondary;
+            box-shadow: 0px 0px 12px $nba-spurs-secondary;
         }
     }
     // NBA POST CARD COLORS END
+    // NFL POST CARD COLORS START
+    &.nfl-bengals {
+        background: $nfl-bengals-main;
+        border: 2px solid $nfl-bengals-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nfl-bengals-secondary;
+        }
+    }
+    &.nfl-browns {
+        background: $nfl-browns-main;
+        border: 2px solid $nfl-browns-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nfl-browns-secondary;
+        }
+    }
+    &.nfl-ravens {
+        background: $nfl-ravens-main;
+        border: 2px solid $nfl-ravens-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nfl-ravens-secondary;
+        }
+    }
+    &.nfl-steelers {
+        background: $nfl-steelers-main;
+        border: 2px solid $nfl-steelers-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nfl-steelers-secondary;
+        }
+    }
+    &.nfl-colts {
+        background: $nfl-colts-main;
+        border: 2px solid $nfl-colts-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nfl-colts-secondary
+        }
+    }
+    &.nfl-jaguars {
+        background: $nfl-jaguars-main;
+        border: 2px solid $nfl-jaguars-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nfl-jaguars-secondary;
+        }
+    }
+    &.nfl-texans {
+        background: $nfl-texans-main;
+        border: 2px solid $nfl-texans-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nfl-texans-secondary;
+        }
+    }
+    &.nfl-titans {
+        background: $nfl-titans-main;
+        border: 2px solid $nfl-titans-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nfl-titans-secondary;
+        }
+    }
+    &.nfl-bills {
+        background: $nfl-bills-main;
+        border: 2px solid $nfl-bills-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nfl-bills-secondary;
+        }
+    }
+    &.nfl-dolphins {
+        background: $nfl-dolphins-main;
+        border: 2px solid $nfl-dolphins-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nfl-dolphins-secondary;
+        }
+    }
+    &.nfl-jets {
+        background: $nfl-jets-main;
+        border: 2px solid $nfl-jets-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nfl-jets-secondary;
+        }
+    }
+    &.nfl-patriots {
+        background: $nfl-patriots-main;
+        border: 2px solid $nfl-patriots-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nfl-patriots-secondary;
+        }
+    }
+    &.nfl-broncos {
+        background: $nfl-broncos-main;
+        border: 2px solid $nfl-broncos-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nfl-broncos-secondary;
+        }
+    }
+    &.nfl-chargers {
+        background: $nfl-chargers-main;
+        border: 2px solid $nfl-chargers-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nfl-chargers-secondary;
+        }
+    }
+    &.nfl-chiefs {
+        background: $nfl-chiefs-main;
+        border: 2px solid $nfl-chiefs-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nfl-chiefs-secondary;
+        }
+    }
+    &.nfl-raiders {
+        background: $nfl-raiders-main;
+        border: 2px solid $nfl-raiders-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nfl-raiders-secondary;
+        }
+    }
+    &.nfl-bears {
+        background: $nfl-bears-main;
+        border: 2px solid $nfl-bears-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nfl-bears-secondary;
+        }
+    }
+    &.nfl-lions {
+        background: $nfl-lions-main;
+        border: 2px solid $nfl-lions-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nfl-lions-secondary;
+        }
+    }
+    &.nfl-packers {
+        background: $nfl-packers-main;
+        border: 2px solid $nfl-packers-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nfl-packers-secondary;
+        }
+    }
+    &.nfl-vikings {
+        background: $nfl-vikings-main;
+        border: 2px solid $nfl-vikings-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nfl-vikings-secondary;
+        }
+    }
+    &.nfl-buccaneers {
+        background: $nfl-buccaneers-main;
+        border: 2px solid $nfl-buccaneers-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nfl-buccaneers-secondary;
+        }
+    }
+    &.nfl-falcons {
+        background: $nfl-falcons-main;
+        border: 2px solid $nfl-falcons-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nfl-falcons-secondary;
+        }
+    }
+    &.nfl-panthers {
+        background: $nfl-panthers-main;
+        border: 2px solid $nfl-panthers-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nfl-panthers-secondary;
+        }
+    }
+    &.nfl-saints {
+        background: $nfl-saints-main;
+        border: 2px solid $nfl-saints-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nfl-saints-secondary;
+        }
+    }
+    &.nfl-cowboys {
+        background: $nfl-cowboys-main;
+        border: 2px solid $nfl-cowboys-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nfl-cowboys-secondary;
+        }
+    }
+    &.nfl-eagles {
+        background: $nfl-eagles-main;
+        border: 2px solid $nfl-eagles-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nfl-eagles-secondary;
+        }
+    }
+    &.nfl-footballteam {
+        background: $nfl-footballteam-main;
+        border: 2px solid $nfl-footballteam-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nfl-footballteam-secondary;
+        }
+    }
+    &.nfl-giants {
+        background: $nfl-giants-main;
+        border: 2px solid $nfl-giants-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nfl-giants-secondary;
+        }
+    }
+    &.nfl-niners {
+        background: $nfl-niners-main;
+        border: 2px solid $nfl-niners-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nfl-niners-secondary;
+        }
+    }
+    &.nfl-cardinals {
+        background: $nfl-cardinals-main;
+        border: 2px solid $nfl-cardinals-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nfl-cardinals-secondary;
+        }
+    }
+    &.nfl-rams {
+        background: $nfl-rams-main;
+        border: 2px solid $nfl-rams-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nfl-rams-secondary;
+        }
+    }
+    &.nfl-seahawks {
+        background: $nfl-seahawks-main;
+        border: 2px solid $nfl-seahawks-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nfl-seahawks-secondary;
+        }
+    }
+    // NFL POST CARD COLORS END
    
     
     .postCard__user {
@@ -547,384 +773,580 @@
        
         // MLB START
         // AL East
-        &.bluejays {
-            color: $blue-jays-secondary;
+        &.mlb-bluejays {
+            color: $mlb-blue-jays-secondary;
             p {
-                border: 4px solid $blue-jays-secondary;
+                border: 4px solid $mlb-blue-jays-secondary;
             }
         }
-        &.orioles {
-            color: $orioles-secondary;
+        &.mlb-orioles {
+            color: $mlb-orioles-secondary;
             p {
-                border: 4px solid $orioles-secondary;
+                border: 4px solid $mlb-orioles-secondary;
             }
         }
-        &.redsox {
-            color: $red-sox-secondary;
+        &.mlb-redsox {
+            color: $mlb-red-sox-secondary;
             p {
-                border: 4px solid $red-sox-secondary;
+                border: 4px solid $mlb-red-sox-secondary;
             }
         }
-        &.rays {
-            color: $rays-secondary;
+        &.mlb-rays {
+            color: $mlb-rays-secondary;
             p {
-                border: 4px solid $rays-secondary;
+                border: 4px solid $mlb-rays-secondary;
             }
         }
-        &.yankees {
-            color: $yankees-secondary;
+        &.mlb-yankees {
+            color: $mlb-yankees-secondary;
             p {
-                border: 4px solid $yankees-secondary;
+                border: 4px solid $mlb-yankees-secondary;
             }
         }
         
         // AL Central
-        &.guardians {
-            color: $guardians-secondary;
+        &.mlb-guardians {
+            color: $mlb-guardians-secondary;
             p {
-                border: 4px solid $guardians-secondary;
+                border: 4px solid $mlb-guardians-secondary;
             }
         }
-        &.royals {
-            color: $royals-secondary;
+        &.mlb-royals {
+            color: $mlb-royals-secondary;
             p {
-                border: 4px solid $royals-secondary;
+                border: 4px solid $mlb-royals-secondary;
             }
         }
-        &.tigers {
-            color: $tigers-secondary;
+        &.mlb-tigers {
+            color: $mlb-tigers-secondary;
             p {
-                border: 4px solid $tigers-secondary;
+                border: 4px solid $mlb-tigers-secondary;
             }
         }
-        &.twins {
-            color: $twins-secondary;
+        &.mlb-twins {
+            color: $mlb-twins-secondary;
             p {
-                border: 4px solid $twins-secondary;
+                border: 4px solid $mlb-twins-secondary;
             }
         }
-        &.whitesox {
-            color: $white-sox-secondary;
+        &.mlb-whitesox {
+            color: $mlb-white-sox-secondary;
             p {
-                border: 4px solid $white-sox-secondary;
+                border: 4px solid $mlb-white-sox-secondary;
             }
         }
         // AL West
-        &.angels {
-            color: $angels-secondary;
+        &.mlb-angels {
+            color: $mlb-angels-secondary;
             p {
-                border: 4px solid $angels-secondary;
+                border: 4px solid $mlb-angels-secondary;
             }
         }
-        &.astros {
-            color: $astros-secondary;
+        &.mlb-astros {
+            color: $mlb-astros-secondary;
             p {
-                border: 4px solid $astros-secondary;
+                border: 4px solid $mlb-astros-secondary;
             }
         }
-        &.athletics {
-            color: $athletics-secondary;
+        &.mlb-athletics {
+            color: $mlb-athletics-secondary;
             p {
-                border: 4px solid $athletics-secondary;
+                border: 4px solid $mlb-athletics-secondary;
             }
         }
-        &.mariners {
-            color: $mariners-secondary;
+        &.mlb-mariners {
+            color: $mlb-mariners-secondary;
             p {
-                border: 4px solid $mariners-secondary;
+                border: 4px solid $mlb-mariners-secondary;
             }
         }
-        &.rangers {
-            color: $rangers-secondary;
+        &.mlb-rangers {
+            color: $mlb-rangers-secondary;
             p {
-                border: 4px solid $rangers-secondary;
+                border: 4px solid $mlb-rangers-secondary;
             }
         }
         // NL East
-        &.braves {
-            color: $braves-secondary;
+        &.mlb-braves {
+            color: $mlb-braves-secondary;
             p {
-                border: 4px solid $braves-secondary;
+                border: 4px solid $mlb-braves-secondary;
             }
         }
-        &.marlins {
-            color: $marlins-secondary;
+        &.mlb-marlins {
+            color: $mlb-marlins-secondary;
             p {
-                border: 4px solid $marlins-secondary;
+                border: 4px solid $mlb-marlins-secondary;
             }
         }
-        &.mets {
-            color: $mets-secondary;
+        &.mlb-mets {
+            color: $mlb-mets-secondary;
             p {
-                border: 4px solid $mets-secondary;
+                border: 4px solid $mlb-mets-secondary;
             }
         }
-        &.nationals {
-            color: $nationals-secondary;
+        &.mlb-nationals {
+            color: $mlb-nationals-secondary;
             p {
-                border: 4px solid $nationals-secondary;
+                border: 4px solid $mlb-nationals-secondary;
             }
         }
-        &.phillies {
-            color: $phillies-secondary;
+        &.mlb-phillies {
+            color: $mlb-phillies-secondary;
             p {
-                border: 4px solid $phillies-secondary;
+                border: 4px solid $mlb-phillies-secondary;
             }
         }
         // NL Central
-        &.brewers {
-            color: $brewers-secondary;
+        &.mlb-brewers {
+            color: $mlb-brewers-secondary;
             p {
-                border: 4px solid $brewers-secondary;
+                border: 4px solid $mlb-brewers-secondary;
             }
         }
-        &.cardinals {
+        &.mlb-cardinals {
             color: $mlb-cardinals-secondary;
             p {
                 border: 4px solid $mlb-cardinals-secondary;
             }
         }
-        &.cubs {
-            color: $cubs-secondary;
+        &.mlb-cubs {
+            color: $mlb-cubs-secondary;
             p {
-                border: 4px solid $cubs-secondary;
+                border: 4px solid $mlb-cubs-secondary;
             }
         }
-        &.pirates {
-            color: $pirates-secondary;
+        &.mlb-pirates {
+            color: $mlb-pirates-secondary;
             p {
-                border: 4px solid $pirates-secondary;
+                border: 4px solid $mlb-pirates-secondary;
             }
         }
-        &.reds {
-            color: $reds-secondary;
+        &.mlb-reds {
+            color: $mlb-reds-secondary;
             p {
-                border: 4px solid $reds-secondary;
+                border: 4px solid $mlb-reds-secondary;
             }
         }
 
         // NL West
-        &.diamondbacks {
-            color: $diamondbacks-secondary;
+        &.mlb-diamondbacks {
+            color: $mlb-diamondbacks-secondary;
             p {
-                border: 4px solid $diamondbacks-secondary;
+                border: 4px solid $mlb-diamondbacks-secondary;
             }
         }
-        &.dodgers {
-            color: $dodgers-secondary;
+        &.mlb-dodgers {
+            color: $mlb-dodgers-secondary;
             p {
-                border: 4px solid $dodgers-secondary;
+                border: 4px solid $mlb-dodgers-secondary;
             }
         }
-        &.giants {
+        &.mlb-giants {
             color: $mlb-giants-secondary;
             p {
                 border: 4px solid $mlb-giants-secondary;
             }
         }
-        &.padres {
-            color: $padres-secondary;
+        &.mlb-padres {
+            color: $mlb-padres-secondary;
             p {
-                border: 4px solid $padres-secondary;
+                border: 4px solid $mlb-padres-secondary;
             }
         }
-        &.rockies {
-            color: $rockies-secondary;
+        &.mlb-rockies {
+            color: $mlb-rockies-secondary;
             p {
-                border: 4px solid $rockies-secondary;
+                border: 4px solid $mlb-rockies-secondary;
             }
         }
         // MLB END
         // NBA START
         // East Atlantic
-        &.celtics {
-            color: $celtics-secondary;
+        &.nba-celtics {
+            color: $nba-celtics-secondary;
             p {
-                border: 4px solid $celtics-secondary;
+                border: 4px solid $nba-celtics-secondary;
             }
         }
-        &.knicks {
-            color: $knicks-secondary;
+        &.nba-knicks {
+            color: $nba-knicks-secondary;
             p {
-                border: 4px solid $knicks-secondary;
+                border: 4px solid $nba-knicks-secondary;
             }
         }
-        &.nets {
-            color: $nets-secondary;
+        &.nba-nets {
+            color: $nba-nets-secondary;
             p {
-                border: 4px solid $nets-secondary;
+                border: 4px solid $nba-nets-secondary;
             }
         }
-        &.sixers {
-            color: $sixers-secondary;
+        &.nba-sixers {
+            color: $nba-sixers-secondary;
             p {
-                border: 4px solid $sixers-secondary;
+                border: 4px solid $nba-sixers-secondary;
             }
         }
-        &.raptors {
-            color: $raptors-secondary;
+        &.nba-raptors {
+            color: $nba-raptors-secondary;
             p {
-                border: 4px solid $raptors-secondary;
+                border: 4px solid $nba-raptors-secondary;
             }
         }
         
         // East Central
-        &.bucks {
-            color: $bucks-secondary;
+        &.nba-bucks {
+            color: $nba-bucks-secondary;
             p {
-                border: 4px solid $bucks-secondary;
+                border: 4px solid $nba-bucks-secondary;
             }
         }
-        &.bulls {
-            color: $bulls-secondary;
+        &.nba-bulls {
+            color: $nba-bulls-secondary;
             p {
-                border: 4px solid $bulls-secondary;
+                border: 4px solid $nba-bulls-secondary;
             }
         }
-        &.cavaliers {
-            color: $cavaliers-secondary;
+        &.nba-cavaliers {
+            color: $nba-cavaliers-secondary;
             p {
-                border: 4px solid $cavaliers-secondary;
+                border: 4px solid $nba-cavaliers-secondary;
             }
         }
-        &.pacers {
-            color: $pacers-secondary;
+        &.nba-pacers {
+            color: $nba-pacers-secondary;
             p {
-                border: 4px solid $pacers-secondary;
+                border: 4px solid $nba-pacers-secondary;
             }
         }
-        &.pistons {
-            color: $pistons-secondary;
+        &.nba-pistons {
+            color: $nba-pistons-secondary;
             p {
-                border: 4px solid $pistons-secondary;
+                border: 4px solid $nba-pistons-secondary;
             }
         }
         // East Southeast 
-        &.hawks {
-            color: $hawks-secondary;
+        &.nba-hawks {
+            color: $nba-hawks-secondary;
             p {
-                border: 4px solid $hawks-secondary;
+                border: 4px solid $nba-hawks-secondary;
             }
         }
-        &.heat {
-            color: $heat-secondary;
+        &.nba-heat {
+            color: $nba-heat-secondary;
             p {
-                border: 4px solid $heat-secondary;
+                border: 4px solid $nba-heat-secondary;
             }
         }
-        &.hornets {
-            color: $hornets-secondary;
+        &.nba-hornets {
+            color: $nba-hornets-secondary;
             p {
-                border: 4px solid $hornets-secondary;
+                border: 4px solid $nba-hornets-secondary;
             }
         }
-        &.magic {
-            color: $magic-secondary;
+        &.nba-magic {
+            color: $nba-magic-secondary;
             p {
-                border: 4px solid $magic-secondary;
+                border: 4px solid $nba-magic-secondary;
             }
         }
-        &.wizards {
-            color: $wizards-secondary;
+        &.nba-wizards {
+            color: $nba-wizards-secondary;
             p {
-                border: 4px solid $wizards-secondary;
+                border: 4px solid $nba-wizards-secondary;
             }
         }
         // West Northwest 
-        &.jazz {
-            color: $jazz-secondary;
+        &.nba-jazz {
+            color: $nba-jazz-secondary;
             p {
-                border: 4px solid $jazz-secondary;
+                border: 4px solid $nba-jazz-secondary;
             }
         }
-        &.nuggets {
-            color: $nuggets-secondary;
+        &.nba-nuggets {
+            color: $nba-nuggets-secondary;
             p {
-                border: 4px solid $nuggets-secondary;
+                border: 4px solid $nba-nuggets-secondary;
             }
         }
-        &.thunder {
-            color: $thunder-secondary;
+        &.nba-thunder {
+            color: $nba-thunder-secondary;
             p {
-                border: 4px solid $thunder-secondary;
+                border: 4px solid $nba-thunder-secondary;
             }
         }
-        &.timberwolves {
-            color: $timberwolves-secondary;
+        &.nba-timberwolves {
+            color: $nba-timberwolves-secondary;
             p {
-                border: 4px solid $timberwolves-secondary;
+                border: 4px solid $nba-timberwolves-secondary;
             }
         }
-        &.trailblazers {
-            color: $trail-blazers-secondary;
+        &.nba-trailblazers {
+            color: $nba-trail-blazers-secondary;
             p {
-                border: 4px solid $trail-blazers-secondary;
+                border: 4px solid $nba-trail-blazers-secondary;
             }
         }
         // West Pacific
-        &.clippers {
-            color: $clippers-secondary;
+        &.nba-clippers {
+            color: $nba-clippers-secondary;
             p {
-                border: 4px solid $clippers-secondary;
+                border: 4px solid $nba-clippers-secondary;
             }
         }
-        &.kings {
-            color: $kings-secondary;
+        &.nba-kings {
+            color: $nba-kings-secondary;
             p {
-                border: 4px solid $kings-secondary;
+                border: 4px solid $nba-kings-secondary;
             }
         }
-        &.lakers {
-            color: $lakers-secondary;
+        &.nba-lakers {
+            color: $nba-lakers-secondary;
             p {
-                border: 4px solid $lakers-secondary;
+                border: 4px solid $nba-lakers-secondary;
             }
         }
-        &.suns {
-            color: $suns-secondary;
+        &.nba-suns {
+            color: $nba-suns-secondary;
             p {
-                border: 4px solid $suns-secondary;
+                border: 4px solid $nba-suns-secondary;
             }
         }
-        &.warriors {
-            color: $warriors-secondary;
+        &.nba-warriors {
+            color: $nba-warriors-secondary;
             p {
-                border: 4px solid $warriors-secondary;
+                border: 4px solid $nba-warriors-secondary;
             }
         }
 
         // West Southwest
-        &.grizzlies {
-            color: $grizzlies-secondary;
+        &.nba-grizzlies {
+            color: $nba-grizzlies-secondary;
             p {
-                border: 4px solid $grizzlies-secondary;
+                border: 4px solid $nba-grizzlies-secondary;
             }
         }
-        &.mavericks {
-            color: $mavericks-secondary;
+        &.nba-mavericks {
+            color: $nba-mavericks-secondary;
             p {
-                border: 4px solid $mavericks-secondary;
+                border: 4px solid $nba-mavericks-secondary;
             }
         }
-        &.pelicans {
-            color: $pelicans-secondary;
+        &.nba-pelicans {
+            color: $nba-pelicans-secondary;
             p {
-                border: 4px solid $pelicans-secondary;
+                border: 4px solid $nba-pelicans-secondary;
             }
         }
-        &.rockets {
-            color: $rockets-secondary;
+        &.nba-rockets {
+            color: $nba-rockets-secondary;
             p {
-                border: 4px solid $rockets-secondary;
+                border: 4px solid $nba-rockets-secondary;
             }
         }
-        &.spurs {
-            color: $spurs-secondary;
+        &.nba-spurs {
+            color: $nba-spurs-secondary;
             p {
-                border: 4px solid $spurs-secondary;
+                border: 4px solid $nba-spurs-secondary;
             }
         }
         // NBA END
+        // NFL START
+        &.nfl-bengals {
+            color: $nfl-bengals-secondary;
+            p {
+                border: 4px solid $nfl-bengals-secondary;
+            }
+        }
+        &.nfl-browns {
+            color: $nfl-browns-secondary;
+            p {
+                border: 4px solid $nfl-browns-secondary;
+            }
+        }
+        &.nfl-ravens {
+            color: $nfl-ravens-secondary;
+            p {
+                border: 4px solid $nfl-ravens-secondary;
+            }
+        }
+        &.nfl-steelers {
+            color: $nfl-steelers-secondary;
+            p {
+                border: 4px solid $nfl-steelers-secondary;
+            }
+        }
+        &.nfl-bills {
+            color: $nfl-bills-secondary;
+            p {
+                border: 4px solid $nfl-bills-secondary;
+            }
+        }
+        &.nfl-patriots {
+            color: $nfl-patriots-secondary;
+            p {
+                border: 4px solid $nfl-patriots-secondary;
+            }
+        }
+        &.nfl-dolphins {
+            color: $nfl-dolphins-secondary;
+            p {
+                border: 4px solid $nfl-dolphins-secondary;
+            }
+        }
+        &.nfl-jets {
+            color: $nfl-jets-secondary;
+            p {
+                border: 4px solid $nfl-jets-secondary;
+            }
+        }
+        &.nfl-titans {
+            color: $nfl-titans-secondary;
+            p {
+                border: 4px solid $nfl-titans-secondary;
+            }
+        }
+        &.nfl-colts {
+            color: $nfl-colts-secondary;
+            p {
+                border: 4px solid $nfl-colts-secondary;
+            }
+        }
+        &.nfl-jaguars {
+            color: $nfl-jaguars-secondary;
+            p {
+                border: 4px solid $nfl-jaguars-secondary;
+            }
+        }
+        &.nfl-texans {
+            color: $nfl-texans-secondary;
+            p {
+                border: 4px solid $nfl-texans-secondary;
+            }
+        }
+        &.nfl-chiefs {
+            color: $nfl-chiefs-secondary;
+            p {
+                border: 4px solid $nfl-chiefs-secondary;
+            }
+        }
+        &.chargers {
+            color: $nfl-chargers-secondary;
+            p {
+                border: 4px solid $nfl-chargers-secondary;
+            }
+        }
+        &.nfl-broncos {
+            color: $nfl-broncos-secondary;
+            p {
+                border: 4px solid $nfl-broncos-secondary;
+            }
+        }
+        &.nfl-raiders {
+            color: $nfl-raiders-secondary;
+            p {
+                border: 4px solid $nfl-raiders-secondary;
+            }
+        }
+        &.cowboys {
+            color: $nfl-cowboys-secondary;
+            p {
+                border: 4px solid $nfl-cowboys-secondary;
+            }
+        }
+        &.nfl-eagles {
+            color: $nfl-eagles-secondary;
+            p {
+                border: 4px solid $nfl-eagles-secondary;
+            }
+        }
+        &.nfl-footballteam {
+            color: $nfl-footballteam-secondary;
+            p {
+                border: 4px solid $nfl-footballteam-secondary;
+            }
+        }
+        &.nfl-giants {
+            color: $nfl-giants-secondary;
+            p {
+                border: 4px solid $nfl-giants-secondary;
+            }
+        }
+        &.nfl-packers {
+            color: $nfl-packers-secondary;
+            p {
+                border: 4px solid $nfl-packers-secondary;
+            }
+        }
+        &.nfl-bears {
+            color: $nfl-bears-secondary;
+            p {
+                border: 4px solid $nfl-bears-secondary;
+            }
+        }
+        &.nfl-lions {
+            color: $nfl-lions-secondary;
+            p {
+                border: 4px solid $nfl-lions-secondary;
+            }
+        }
+        &.nfl-vikings {
+            color: $nfl-vikings-secondary;
+            p {
+                border: 4px solid $nfl-vikings-secondary;
+            }
+        }
+        &.nfl-buccaneers {
+            color: $nfl-buccaneers-secondary;
+            p {
+                border: 4px solid $nfl-buccaneers-secondary;
+            }
+        }
+        &.nfl-saints {
+            color: $nfl-saints-secondary;
+            p {
+                border: 4px solid $nfl-saints-secondary;
+            }
+        }
+        &.nfl-panthers {
+            color: $nfl-panthers-secondary;
+            p {
+                border: 4px solid $nfl-panthers-secondary;
+            }
+        }
+        &.nfl-falcons {
+            color: $nfl-falcons-secondary;
+            p {
+                border: 4px solid $nfl-falcons-secondary;
+            }
+        }
+        &.nfl-cardinals {
+            color: $nfl-cardinals-secondary;
+            p {
+                border: 4px solid $nfl-cardinals-secondary;
+            }
+        }
+        &.nfl-rams {
+            color: $nfl-rams-secondary;
+            p {
+                border: 4px solid $nfl-rams-secondary;
+            }
+        }
+        &.nfl-niners {
+            color: $nfl-niners-secondary;
+            p {
+                border: 4px solid $nfl-niners-secondary;
+            }
+        }
+        &.nfl-seahawks {
+            color: $nfl-seahawks-secondary;
+            p {
+                border: 4px solid $nfl-seahawks-secondary;
+            }
+        }
+    
+        
+        // NFL END
         
       
     }

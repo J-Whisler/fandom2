@@ -116,160 +116,160 @@
                         span {
                             transition: all 0.3s ease-in-out;
                             // East Atlantic
-                            &.celtics {
-                                color: $celtics-main;
-                                -webkit-text-stroke: 1px $celtics-secondary;
-                                text-shadow: 1px 1px 0px $celtics-secondary;
+                            &.nba-celtics {
+                                color: $nba-celtics-main;
+                                -webkit-text-stroke: 1px $nba-celtics-secondary;
+                                text-shadow: 1px 1px 0px $nba-celtics-secondary;
                             }
-                            &.knicks {
-                                color: $knicks-main;
-                                -webkit-text-stroke: 1px $knicks-secondary;
-                                text-shadow: 1px 1px 0px $knicks-secondary;
+                            &.nba-knicks {
+                                color: $nba-knicks-main;
+                                -webkit-text-stroke: 1px $nba-knicks-secondary;
+                                text-shadow: 1px 1px 0px $nba-knicks-secondary;
                             }
-                            &.nets {
-                                color: $nets-main;
-                                -webkit-text-stroke: 1px $nets-secondary;
-                                text-shadow: 1px 1px 0px $nets-secondary;
+                            &.nba-nets {
+                                color: $nba-nets-main;
+                                -webkit-text-stroke: 1px $nba-nets-secondary;
+                                text-shadow: 1px 1px 0px $nba-nets-secondary;
                             }
-                            &.sixers {
-                                color: $sixers-main;
-                                -webkit-text-stroke: 1px $sixers-secondary;
-                                text-shadow: 1px 1px 0px $sixers-secondary;
+                            &.nba-sixers {
+                                color: $nba-sixers-main;
+                                -webkit-text-stroke: 1px $nba-sixers-secondary;
+                                text-shadow: 1px 1px 0px $nba-sixers-secondary;
                             }
-                            &.raptors {
-                                color: $raptors-main;
-                                -webkit-text-stroke: 1px $raptors-secondary;
-                                text-shadow: 1px 1px 0px $raptors-secondary;
+                            &.nba-raptors {
+                                color: $nba-raptors-main;
+                                -webkit-text-stroke: 1px $nba-raptors-secondary;
+                                text-shadow: 1px 1px 0px $nba-raptors-secondary;
                             }
                             // East Central
-                            &.bucks {
-                                color: $bucks-main;
-                                -webkit-text-stroke: 1px $bucks-secondary;
-                                text-shadow: 1px 1px 0px $bucks-secondary;
+                            &.nba-bucks {
+                                color: $nba-bucks-main;
+                                -webkit-text-stroke: 1px $nba-bucks-secondary;
+                                text-shadow: 1px 1px 0px $nba-bucks-secondary;
                             }
-                            &.bulls {
-                                color: $bulls-main;
-                                -webkit-text-stroke: 1px $bulls-secondary;
-                                text-shadow: 1px 1px 0px $bulls-secondary;
+                            &.nba-bulls {
+                                color: $nba-bulls-main;
+                                -webkit-text-stroke: 1px $nba-bulls-secondary;
+                                text-shadow: 1px 1px 0px $nba-bulls-secondary;
                             }
-                            &.cavaliers {
-                                color: $cavaliers-main;
-                                -webkit-text-stroke: 1px $cavaliers-secondary;
-                                text-shadow: 1px 1px 0px $cavaliers-secondary;
+                            &.nba-cavaliers {
+                                color: $nba-cavaliers-main;
+                                -webkit-text-stroke: 1px $nba-cavaliers-secondary;
+                                text-shadow: 1px 1px 0px $nba-cavaliers-secondary;
                             }
-                            &.pacers {
-                                color: $pacers-main;
-                                -webkit-text-stroke: 1px $pacers-secondary;
-                                text-shadow: 1px 1px 0px $pacers-secondary;
+                            &.nba-pacers {
+                                color: $nba-pacers-main;
+                                -webkit-text-stroke: 1px $nba-pacers-secondary;
+                                text-shadow: 1px 1px 0px $nba-pacers-secondary;
                             }
-                            &.pistons {
-                                color: $pistons-main;
-                                -webkit-text-stroke: 1px $pistons-secondary;
-                                text-shadow: 1px 1px 0px $pistons-secondary;
+                            &.nba-pistons {
+                                color: $nba-pistons-main;
+                                -webkit-text-stroke: 1px $nba-pistons-secondary;
+                                text-shadow: 1px 1px 0px $nba-pistons-secondary;
                             }
                             // East Southeast
-                            &.hawks {
-                                color: $hawks-main;
-                                -webkit-text-stroke: 1px $hawks-secondary;
-                                text-shadow: 1px 1px 0px $hawks-secondary;
+                            &.nba-hawks {
+                                color: $nba-hawks-main;
+                                -webkit-text-stroke: 1px $nba-hawks-secondary;
+                                text-shadow: 1px 1px 0px $nba-hawks-secondary;
                             }
-                            &.heat {
-                                color: $heat-main;
-                                -webkit-text-stroke: 1px $heat-secondary;
-                                text-shadow: 1px 1px 0px $heat-secondary;
+                            &.nba-heat {
+                                color: $nba-heat-main;
+                                -webkit-text-stroke: 1px $nba-heat-secondary;
+                                text-shadow: 1px 1px 0px $nba-heat-secondary;
                             }
-                            &.hornets {
-                                color: $hornets-main;
-                                -webkit-text-stroke: 1px $hornets-secondary;
-                                text-shadow: 1px 1px 0px $hornets-secondary;
+                            &.nba-hornets {
+                                color: $nba-hornets-main;
+                                -webkit-text-stroke: 1px $nba-hornets-secondary;
+                                text-shadow: 1px 1px 0px $nba-hornets-secondary;
                             }
-                            &.magic {
-                                color: $magic-main;
-                                -webkit-text-stroke: 1px $magic-secondary;
-                                text-shadow: 1px 1px 0px $magic-secondary;
+                            &.nba-magic {
+                                color: $nba-magic-main;
+                                -webkit-text-stroke: 1px $nba-magic-secondary;
+                                text-shadow: 1px 1px 0px $nba-magic-secondary;
                             }
-                            &.wizards {
-                                color: $wizards-main;
-                                -webkit-text-stroke: 1px $wizards-secondary;
-                                text-shadow: 1px 1px 0px $wizards-secondary;
+                            &.nba-wizards {
+                                color: $nba-wizards-main;
+                                -webkit-text-stroke: 1px $nba-wizards-secondary;
+                                text-shadow: 1px 1px 0px $nba-wizards-secondary;
                             }
                             // WEST Northwest
-                            &.jazz {
-                                color: $jazz-main;
-                                -webkit-text-stroke: 1px $jazz-secondary;
-                                text-shadow: 1px 1px 0px $jazz-secondary;
+                            &.nba-jazz {
+                                color: $nba-jazz-main;
+                                -webkit-text-stroke: 1px $nba-jazz-secondary;
+                                text-shadow: 1px 1px 0px $nba-jazz-secondary;
                             }
-                            &.nuggets {
-                                color: $nuggets-main;
-                                -webkit-text-stroke: 1px $nuggets-secondary;
-                                text-shadow: 1px 1px 0px $nuggets-secondary;
+                            &.nba-nuggets {
+                                color: $nba-nuggets-main;
+                                -webkit-text-stroke: 1px $nba-nuggets-secondary;
+                                text-shadow: 1px 1px 0px $nba-nuggets-secondary;
                             }
-                            &.thunder {
-                                color: $thunder-main;
-                                -webkit-text-stroke: 1px $thunder-secondary;
-                                text-shadow: 1px 1px 0px $thunder-secondary;
+                            &.nba-thunder {
+                                color: $nba-thunder-main;
+                                -webkit-text-stroke: 1px $nba-thunder-secondary;
+                                text-shadow: 1px 1px 0px $nba-thunder-secondary;
                             }
-                            &.timberwolves {
-                                color: $timberwolves-main;
-                                -webkit-text-stroke: 1px $timberwolves-secondary;
-                                text-shadow: 1px 1px 0px $timberwolves-secondary;
+                            &.nba-timberwolves {
+                                color: $nba-timberwolves-main;
+                                -webkit-text-stroke: 1px $nba-timberwolves-secondary;
+                                text-shadow: 1px 1px 0px $nba-timberwolves-secondary;
                             }
-                            &.trailblazers {
-                                color: $trail-blazers-main;
-                                -webkit-text-stroke: 1px $trail-blazers-secondary;
-                                text-shadow: 1px 1px 0px $trail-blazers-secondary;
+                            &.nba-trailblazers {
+                                color: $nba-trail-blazers-main;
+                                -webkit-text-stroke: 1px $nba-trail-blazers-secondary;
+                                text-shadow: 1px 1px 0px $nba-trail-blazers-secondary;
                             }
                             // West Pacific
-                            &.clippers {
-                                color: $clippers-main;
-                                -webkit-text-stroke: 1px $clippers-secondary;
-                                text-shadow: 1px 1px 0px $clippers-secondary;
+                            &.nba-clippers {
+                                color: $nba-clippers-main;
+                                -webkit-text-stroke: 1px $nba-clippers-secondary;
+                                text-shadow: 1px 1px 0px $nba-clippers-secondary;
                             }
-                            &.kings {
-                                color: $kings-main;
-                                -webkit-text-stroke: 1px $kings-secondary;
-                                text-shadow: 1px 1px 0px $kings-secondary;
+                            &.nba-kings {
+                                color: $nba-kings-main;
+                                -webkit-text-stroke: 1px $nba-kings-secondary;
+                                text-shadow: 1px 1px 0px $nba-kings-secondary;
                             }
-                            &.lakers {
-                                color: $lakers-main;
-                                -webkit-text-stroke: 1px $lakers-secondary;
-                                text-shadow: 1px 1px 0px $lakers-secondary;
+                            &.nba-lakers {
+                                color: $nba-lakers-main;
+                                -webkit-text-stroke: 1px $nba-lakers-secondary;
+                                text-shadow: 1px 1px 0px $nba-lakers-secondary;
                             }
-                            &.suns {
-                                color: $suns-main;
-                                -webkit-text-stroke: 1px $suns-secondary;
-                                text-shadow: 1px 1px 0px $suns-secondary;
+                            &.nba-suns {
+                                color: $nba-suns-main;
+                                -webkit-text-stroke: 1px $nba-suns-secondary;
+                                text-shadow: 1px 1px 0px $nba-suns-secondary;
                             }
-                            &.warriors {
-                                color: $warriors-main;
-                                -webkit-text-stroke: 1px $warriors-secondary;
-                                text-shadow: 1px 1px 0px $warriors-secondary;
+                            &.nba-warriors {
+                                color: $nba-warriors-main;
+                                -webkit-text-stroke: 1px $nba-warriors-secondary;
+                                text-shadow: 1px 1px 0px $nba-warriors-secondary;
                             }
                             // West Southwest
-                            &.grizzlies {
-                                color: $grizzlies-main;
-                                -webkit-text-stroke: 1px $grizzlies-secondary;
-                                text-shadow: 1px 1px 0px $grizzlies-secondary;
+                            &.nba-grizzlies {
+                                color: $nba-grizzlies-main;
+                                -webkit-text-stroke: 1px $nba-grizzlies-secondary;
+                                text-shadow: 1px 1px 0px $nba-grizzlies-secondary;
                             }
-                            &.mavericks {
-                                color: $mavericks-main;
-                                -webkit-text-stroke: 1px $mavericks-secondary;
-                                text-shadow: 1px 1px 0px $mavericks-secondary;
+                            &.nba-mavericks {
+                                color: $nba-mavericks-main;
+                                -webkit-text-stroke: 1px $nba-mavericks-secondary;
+                                text-shadow: 1px 1px 0px $nba-mavericks-secondary;
                             }
-                            &.pelicans {
-                                color: $pelicans-main;
-                                -webkit-text-stroke: 1px $pelicans-secondary;
-                                text-shadow: 1px 1px 0px $pelicans-secondary;
+                            &.nba-pelicans {
+                                color: $nba-pelicans-main;
+                                -webkit-text-stroke: 1px $nba-pelicans-secondary;
+                                text-shadow: 1px 1px 0px $nba-pelicans-secondary;
                             }
-                            &.rockets {
-                                color: $rockets-main;
-                                -webkit-text-stroke: 1px $rockets-secondary;
-                                text-shadow: 1px 1px 0px $rockets-secondary;
+                            &.nba-rockets {
+                                color: $nba-rockets-main;
+                                -webkit-text-stroke: 1px $nba-rockets-secondary;
+                                text-shadow: 1px 1px 0px $nba-rockets-secondary;
                             }
-                            &.spurs {
-                                color: $spurs-main;
-                                -webkit-text-stroke: 1px $spurs-secondary;
-                                text-shadow: 1px 1px 0px $spurs-secondary;
+                            &.nba-spurs {
+                                color: $nba-spurs-main;
+                                -webkit-text-stroke: 1px $nba-spurs-secondary;
+                                text-shadow: 1px 1px 0px $nba-spurs-secondary;
                             }
                           }
                           

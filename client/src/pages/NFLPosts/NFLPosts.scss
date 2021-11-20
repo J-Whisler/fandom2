@@ -1,1 +1,341 @@
 @import "../../utilities/variables.scss";
+
+.nflPosts {
+    background: $bg-color;
+    min-height: 100vh;
+    padding: 2rem 0;
+    span {
+        cursor: pointer;
+    }
+    .nflPosts__header {
+        padding: 1rem 4rem;
+        .nflPosts__sortBy {
+            display: flex;
+            color: $font-color;
+            align-items: center;
+            .sortBy__header {
+                // margin-right: 1rem;
+                h6 {
+                    font-family: $main-font;
+                    font-size: 1.8rem;
+                    letter-spacing: 0.1rem;
+                }
+            }
+            .sortBy__options {
+                display: flex;
+                align-items: center;
+                span {
+                    font-family: $header-font;
+                    font-size: 1.5rem;
+                    margin: 0 1rem;
+                    transition: all 0.3s ease-in-out;
+                    &.newest {
+                        color: $light-orange;
+                        transform: scale(1.05);                       
+                    }
+                    &.oldest {
+                        color: $light-orange;
+                        transform: scale(1.05);
+                    }
+                }
+                div {
+                    border: 2px solid $blue;
+                    border-radius: 1rem;
+                    padding: 1rem 0;
+                }
+            }
+        }
+        .nflPosts__filterBy {
+            display: flex;
+            color: $font-color;
+            align-items: center;
+            .filterBy__header {
+                margin-right: 1rem;
+                h6 {
+                    font-family: $main-font;
+                    font-size: 1.8rem;
+                    letter-spacing: 0.1rem;
+                }
+            }
+            .filterBy__options {
+                display: flex;
+                align-items: center;
+                font-family: $header-font;
+                font-size: 1.5rem;
+                .filterBy__optionsDivider {
+                    border: 2px solid $blue;
+                    margin: 0 0.7rem;
+                    border-radius: 1rem;
+                    opacity: 0.8;
+                }
+                .filterBy__optionsDot {
+                   background: $blue;
+                    border-radius: 50%;
+                    padding: 0.3rem;
+                    align-self: center;
+                    margin: 0 0.7rem;
+                    opacity: 0.6;
+    
+                }
+                .filterBy__nfl {
+                    display: flex;
+                    .nfl {
+                        color: $dark-orange;
+                    }
+                }
+                .filterBy__nflConference {
+                    display: flex;
+                    span {
+                        transition: all 0.3s ease-in-out;
+                        &.afc {
+                            color: $afc-red;
+                        }
+                        &.nfc {
+                            color: $nfc-blue;
+                        }
+                    }
+                    
+                }
+                .filterBy__nflDivision {
+                    display: flex;
+                    span {
+                        transition: all 0.3s ease-in-out;
+                        &.north {
+                            color: $north;
+                        }
+                        &.south {
+                            color: $south;
+                        }
+                        &.east {
+                            color: $east;
+                        }
+                        &.west {
+                            color: $west;
+                        }
+                    }
+                }
+                .filterBy__nflTeam {
+                    display: flex;
+                        span {
+                            transition: all 0.3s ease-in-out;
+                            // AFC North
+                            &.nfl-bengals {
+                                color: $nfl-bengals-main;
+                                -webkit-text-stroke: 1px $nfl-bengals-secondary;
+                                text-shadow: 1px 1px 0px $nfl-bengals-secondary;
+                            }
+                            &.nfl-browns {
+                                color: $nfl-browns-main;
+                                -webkit-text-stroke: 1px $nfl-browns-secondary;
+                                text-shadow: 1px 1px 0px $nfl-browns-secondary;
+                            }
+                            &.nfl-ravens {
+                                color: $nfl-ravens-main;
+                                -webkit-text-stroke: 1px $nfl-ravens-secondary;
+                                text-shadow: 1px 1px 0px $nfl-ravens-secondary;
+                            }
+                            &.nfl-steelers {
+                                color: $nfl-steelers-main;
+                                -webkit-text-stroke: 1px $nfl-steelers-secondary;
+                                text-shadow: 1px 1px 0px $nfl-steelers-secondary;
+                            }
+                           
+                            // AFC South
+                            &.nfl-colts {
+                                color: $nfl-colts-main;
+                                -webkit-text-stroke: 1px $nfl-colts-secondary;
+                                text-shadow: 1px 1px 0px $nfl-colts-secondary;
+                            }
+                            &.nfl-jaguars {
+                                color: $nfl-jaguars-main;
+                                -webkit-text-stroke: 1px $nfl-jaguars-secondary;
+                                text-shadow: 1px 1px 0px $nfl-jaguars-secondary;
+                            }
+                            &.nfl-texans {
+                                color: $nfl-texans-main;
+                                -webkit-text-stroke: 1px $nfl-texans-secondary;
+                                text-shadow: 1px 1px 0px $nfl-texans-secondary;
+                            }
+                            &.nfl-titans {
+                                color: $nfl-titans-main;
+                                -webkit-text-stroke: 1px $nfl-titans-secondary;
+                                text-shadow: 1px 1px 0px $nfl-titans-secondary;
+                            }
+                         
+                            // AFC East 
+                            &.nfl-bills {
+                                color: $nfl-bills-main;
+                                -webkit-text-stroke: 1px $nfl-bills-secondary;
+                                text-shadow: 1px 1px 0px $nfl-bills-secondary;
+                            }
+                            &.nfl-dolphins {
+                                color: $nfl-dolphins-main;
+                                -webkit-text-stroke: 1px $nfl-dolphins-secondary;
+                                text-shadow: 1px 1px 0px $nfl-dolphins-secondary;
+                            }
+                            &.nfl-jets {
+                                color: $nfl-jets-main;
+                                -webkit-text-stroke: 1px $nfl-jets-secondary;
+                                text-shadow: 1px 1px 0px $nfl-jets-secondary;
+                            }
+                            &.nfl-patriots {
+                                color: $nfl-patriots-main;
+                                -webkit-text-stroke: 1px $nfl-patriots-secondary;
+                                text-shadow: 1px 1px 0px $nfl-patriots-secondary;
+                            }
+                          
+                            // AFC West 
+                            &.nfl-broncos {
+                                color: $nfl-broncos-main;
+                                -webkit-text-stroke: 1px $nfl-broncos-secondary;
+                                text-shadow: 1px 1px 0px $nfl-broncos-secondary;
+                            }
+                            &.nfl-chargers {
+                                color: $nfl-chargers-main;
+                                -webkit-text-stroke: 1px $nfl-chargers-secondary;
+                                text-shadow: 1px 1px 0px $nfl-chargers-secondary;
+                            }
+                            &.nfl-chiefs {
+                                color: $nfl-chiefs-main;
+                                -webkit-text-stroke: 1px $nfl-chiefs-secondary;
+                                text-shadow: 1px 1px 0px $nfl-chiefs-secondary;
+                            }
+                            &.nfl-raiders {
+                                color: $nfl-raiders-main;
+                                -webkit-text-stroke: 1px $nfl-raiders-secondary;
+                                text-shadow: 1px 1px 0px $nfl-raiders-secondary;
+                            }
+                          
+                            // NFC North
+                            &.nfl-bears {
+                                color: $nfl-bears-main;
+                                -webkit-text-stroke: 1px $nfl-bears-secondary;
+                                text-shadow: 1px 1px 0px $nfl-bears-secondary;
+                            }
+                            &.nfl-lions {
+                                color: $nfl-lions-main;
+                                -webkit-text-stroke: 1px $nfl-lions-secondary;
+                                text-shadow: 1px 1px 0px $nfl-lions-secondary;
+                            }
+                            &.nfl-packers {
+                                color: $nfl-packers-main;
+                                -webkit-text-stroke: 1px $nfl-packers-secondary;
+                                text-shadow: 1px 1px 0px $nfl-packers-secondary;
+                            }
+                            &.nfl-vikings {
+                                color: $nfl-vikings-main;
+                                -webkit-text-stroke: 1px $nfl-vikings-secondary;
+                                text-shadow: 1px 1px 0px $nfl-vikings-secondary;
+                            }
+                         
+                            // NFC South
+                            &.nfl-buccaneers {
+                                color: $nfl-buccaneers-main;
+                                -webkit-text-stroke: 1px $nfl-buccaneers-secondary;
+                                text-shadow: 1px 1px 0px $nfl-buccaneers-secondary;
+                            }
+                            &.nfl-falcons {
+                                color: $nfl-falcons-main;
+                                -webkit-text-stroke: 1px $nfl-falcons-secondary;
+                                text-shadow: 1px 1px 0px $nfl-falcons-secondary;
+                            }
+                            &.nfl-panthers {
+                                color: $nfl-panthers-main;
+                                -webkit-text-stroke: 1px $nfl-panthers-secondary;
+                                text-shadow: 1px 1px 0px $nfl-panthers-secondary;
+                            }
+                            &.nfl-saints {
+                                color: $nfl-saints-main;
+                                -webkit-text-stroke: 1px $nfl-saints-secondary;
+                                text-shadow: 1px 1px 0px $nfl-saints-secondary;
+                            }
+                          
+                            // NFC East
+                            &.nfl-cowboys {
+                                color: $nfl-cowboys-main;
+                                -webkit-text-stroke: 1px $nfl-cowboys-secondary;
+                                text-shadow: 1px 1px 0px $nfl-cowboys-secondary;
+                            }
+                            &.nfl-eagles {
+                                color: $nfl-eagles-main;
+                                -webkit-text-stroke: 1px $nfl-eagles-secondary;
+                                text-shadow: 1px 1px 0px $nfl-eagles-secondary;
+                            }
+                            &.nfl-footballteam {
+                                color: $nfl-footballteam-main;
+                                -webkit-text-stroke: 1px $nfl-footballteam-secondary;
+                                text-shadow: 1px 1px 0px $nfl-footballteam-secondary;
+                            }
+                            &.nfl-giants {
+                                color: $nfl-giants-main;
+                                -webkit-text-stroke: 1px $nfl-giants-secondary;
+                                text-shadow: 1px 1px 0px $nfl-giants-secondary;
+                            }
+                            // NFC West
+                            &.nfl-niners {
+                                color: $nfl-niners-main;
+                                -webkit-text-stroke: 1px $nfl-niners-secondary;
+                                text-shadow: 1px 1px 0px $nfl-niners-secondary;
+                            }
+                            &.nfl-cardinals {
+                                color: $nfl-cardinals-main;
+                                -webkit-text-stroke: 1px $nfl-cardinals-secondary;
+                                text-shadow: 1px 1px 0px $nfl-cardinals-secondary;
+                            }
+                            &.nfl-rams {
+                                color: $nfl-rams-main;
+                                -webkit-text-stroke: 1px $nfl-rams-secondary;
+                                text-shadow: 1px 1px 0px $nfl-rams-secondary;
+                            }
+                            &.nfl-seahawks {
+                                color: $nfl-seahawks-main;
+                                -webkit-text-stroke: 1px $nfl-seahawks-secondary;
+                                text-shadow: 1px 1px 0px $nfl-seahawks-secondary;
+                            }
+                          }
+                          
+                }
+            }
+        }
+    }
+    .nflPosts__main {
+        display: flex;
+        padding: 0 10rem;
+        .nflPosts__pageLinks {
+            display: flex;
+            flex-direction: column;
+            padding-top: 7rem;
+            .link {
+                color: $font-color;
+                opacity: 0.5;
+                font-size: 3rem;
+                margin-bottom: 3rem;
+                transition: all 0.3s ease-in-out;
+                &.active {
+                    opacity: 0.6;
+                    transform: scale(1.05);
+                    text-shadow: 0 0 15px $bg-color, 0 0 20px $font-color
+                }
+                &:hover {
+                    opacity: 0.6;
+                    transform: scale(1.05);
+                    text-shadow: 0 0 15px $bg-color, 0 0 10px $font-color;
+                }
+            }
+        }
+        .nflPosts__list {
+            // border: 2px solid yellow;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            // margin-left: 3rem;
+            margin: 0 5rem;
+            &.newest {
+                flex-direction: column-reverse;
+            }
+            &.oldest {
+                flex-direction: column;
+            }
+        }
+    }
+}

@@ -3,6 +3,7 @@ import "./PostCard.scss";
 
 const PostCard = ({ post }) => {
   const getTeamName = post.team.toLowerCase().replace(/ /g, "");
+  const getLeague = post.league.toLowerCase();
   const firstInitial = post.username.substring(0, 1);
 
   const sqlPostDate = post.createdAt;
@@ -12,9 +13,11 @@ const PostCard = ({ post }) => {
   const getPostYear = sqlPostDateSplit[0].substring(2, 4);
   const formattedDate = `${getPostMonth}/${getPostDay}/${getPostYear}`;
 
+  console.log(`${getLeague}-${getTeamName}`);
+
   return (
-    <div className={`postCard ${getTeamName}`}>
-      <div className={`postCard__user ${getTeamName}`}>
+    <div className={`postCard ${getLeague}-${getTeamName}`}>
+      <div className={`postCard__user ${getLeague}-${getTeamName}`}>
         <div className="postCard__userInitial">
           <p>{firstInitial}</p>
         </div>

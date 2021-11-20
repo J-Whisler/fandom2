@@ -349,35 +349,35 @@ const NBAPosts = () => {
                 <div className="filterBy__optionsDivider"></div>
                 <span
                   onClick={() => handleNbaTeamClick(111)}
-                  className={nbaTeamFilter === 111 ? "celtics" : ""}
+                  className={nbaTeamFilter === 111 ? "nba-celtics" : ""}
                 >
                   CELTICS
                 </span>
                 <div className="filterBy__optionsDot"></div>
                 <span
                   onClick={() => handleNbaTeamClick(112)}
-                  className={nbaTeamFilter === 112 ? "knicks" : ""}
+                  className={nbaTeamFilter === 112 ? "nba-knicks" : ""}
                 >
                   KNICKS
                 </span>
                 <div className="filterBy__optionsDot"></div>
                 <span
                   onClick={() => handleNbaTeamClick(113)}
-                  className={nbaTeamFilter === 113 ? "nets" : ""}
+                  className={nbaTeamFilter === 113 ? "nba-nets" : ""}
                 >
                   NETS
                 </span>
                 <div className="filterBy__optionsDot"></div>
                 <span
                   onClick={() => handleNbaTeamClick(114)}
-                  className={nbaTeamFilter === 114 ? "sixers" : ""}
+                  className={nbaTeamFilter === 114 ? "nba-sixers" : ""}
                 >
                   SIXERS
                 </span>
                 <div className="filterBy__optionsDot"></div>
                 <span
                   onClick={() => handleNbaTeamClick(115)}
-                  className={nbaTeamFilter === 115 ? "raptors" : ""}
+                  className={nbaTeamFilter === 115 ? "nba-raptors" : ""}
                 >
                   RAPTORS
                 </span>
@@ -389,35 +389,35 @@ const NBAPosts = () => {
                 <div className="filterBy__optionsDivider"></div>
                 <span
                   onClick={() => handleNbaTeamClick(121)}
-                  className={nbaTeamFilter === 121 ? "bucks" : ""}
+                  className={nbaTeamFilter === 121 ? "nba-bucks" : ""}
                 >
                   BUCKS
                 </span>
                 <div className="filterBy__optionsDot"></div>
                 <span
                   onClick={() => handleNbaTeamClick(122)}
-                  className={nbaTeamFilter === 122 ? "bulls" : ""}
+                  className={nbaTeamFilter === 122 ? "nba-bulls" : ""}
                 >
                   BULLS
                 </span>
                 <div className="filterBy__optionsDot"></div>
                 <span
                   onClick={() => handleNbaTeamClick(123)}
-                  className={nbaTeamFilter === 123 ? "cavaliers" : ""}
+                  className={nbaTeamFilter === 123 ? "nba-cavaliers" : ""}
                 >
                   CAVALIERS
                 </span>
                 <div className="filterBy__optionsDot"></div>
                 <span
                   onClick={() => handleNbaTeamClick(124)}
-                  className={nbaTeamFilter === 124 ? "pacers" : ""}
+                  className={nbaTeamFilter === 124 ? "nba-pacers" : ""}
                 >
                   PACERS
                 </span>
                 <div className="filterBy__optionsDot"></div>
                 <span
                   onClick={() => handleNbaTeamClick(125)}
-                  className={nbaTeamFilter === 125 ? "pistons" : ""}
+                  className={nbaTeamFilter === 125 ? "nba-pistons" : ""}
                 >
                   PISTONS
                 </span>
@@ -429,35 +429,35 @@ const NBAPosts = () => {
                 <div className="filterBy__optionsDivider"></div>
                 <span
                   onClick={() => handleNbaTeamClick(131)}
-                  className={nbaTeamFilter === 131 ? "hawks" : ""}
+                  className={nbaTeamFilter === 131 ? "nba-hawks" : ""}
                 >
                   HAWKS
                 </span>
                 <div className="filterBy__optionsDot"></div>
                 <span
                   onClick={() => handleNbaTeamClick(132)}
-                  className={nbaTeamFilter === 132 ? "heat" : ""}
+                  className={nbaTeamFilter === 132 ? "nba-heat" : ""}
                 >
                   HEAT
                 </span>
                 <div className="filterBy__optionsDot"></div>
                 <span
                   onClick={() => handleNbaTeamClick(133)}
-                  className={nbaTeamFilter === 133 ? "hornets" : ""}
+                  className={nbaTeamFilter === 133 ? "nba-hornets" : ""}
                 >
                   HORNETS
                 </span>
                 <div className="filterBy__optionsDot"></div>
                 <span
                   onClick={() => handleNbaTeamClick(134)}
-                  className={nbaTeamFilter === 134 ? "magic" : ""}
+                  className={nbaTeamFilter === 134 ? "nba-magic" : ""}
                 >
                   MAGIC
                 </span>
                 <div className="filterBy__optionsDot"></div>
                 <span
                   onClick={() => handleNbaTeamClick(135)}
-                  className={nbaTeamFilter === 135 ? "wizards" : ""}
+                  className={nbaTeamFilter === 135 ? "nba-wizards" : ""}
                 >
                   WIZARDS
                 </span>
@@ -469,35 +469,35 @@ const NBAPosts = () => {
                 <div className="filterBy__optionsDivider"></div>
                 <span
                   onClick={() => handleNbaTeamClick(241)}
-                  className={nbaTeamFilter === 241 ? "jazz" : ""}
+                  className={nbaTeamFilter === 241 ? "nba-jazz" : ""}
                 >
                   JAZZ
                 </span>
                 <div className="filterBy__optionsDot"></div>
                 <span
                   onClick={() => handleNbaTeamClick(242)}
-                  className={nbaTeamFilter === 242 ? "nuggets" : ""}
+                  className={nbaTeamFilter === 242 ? "nba-nuggets" : ""}
                 >
                   NUGGETS
                 </span>
                 <div className="filterBy__optionsDot"></div>
                 <span
                   onClick={() => handleNbaTeamClick(243)}
-                  className={nbaTeamFilter === 243 ? "thunder" : ""}
+                  className={nbaTeamFilter === 243 ? "nba-thunder" : ""}
                 >
                   THUNDER
                 </span>
                 <div className="filterBy__optionsDot"></div>
                 <span
                   onClick={() => handleNbaTeamClick(244)}
-                  className={nbaTeamFilter === 244 ? "timberwolves" : ""}
+                  className={nbaTeamFilter === 244 ? "nba-timberwolves" : ""}
                 >
                   T-WOLVES
                 </span>
                 <div className="filterBy__optionsDot"></div>
                 <span
                   onClick={() => handleNbaTeamClick(245)}
-                  className={nbaTeamFilter === 245 ? "trailblazers" : ""}
+                  className={nbaTeamFilter === 245 ? "nba-trailblazers" : ""}
                 >
                   T-BLAZERS
                 </span>
@@ -509,35 +509,35 @@ const NBAPosts = () => {
                 <div className="filterBy__optionsDivider"></div>
                 <span
                   onClick={() => handleNbaTeamClick(251)}
-                  className={nbaTeamFilter === 251 ? "clippers" : ""}
+                  className={nbaTeamFilter === 251 ? "nba-clippers" : ""}
                 >
                   CLIPPERS
                 </span>
                 <div className="filterBy__optionsDot"></div>
                 <span
                   onClick={() => handleNbaTeamClick(252)}
-                  className={nbaTeamFilter === 252 ? "kings" : ""}
+                  className={nbaTeamFilter === 252 ? "nba-kings" : ""}
                 >
                   KINGS
                 </span>
                 <div className="filterBy__optionsDot"></div>
                 <span
                   onClick={() => handleNbaTeamClick(253)}
-                  className={nbaTeamFilter === 253 ? "lakers" : ""}
+                  className={nbaTeamFilter === 253 ? "nba-lakers" : ""}
                 >
                   LAKERS
                 </span>
                 <div className="filterBy__optionsDot"></div>
                 <span
                   onClick={() => handleNbaTeamClick(254)}
-                  className={nbaTeamFilter === 254 ? "suns" : ""}
+                  className={nbaTeamFilter === 254 ? "nba-suns" : ""}
                 >
                   SUNS
                 </span>
                 <div className="filterBy__optionsDot"></div>
                 <span
                   onClick={() => handleNbaTeamClick(255)}
-                  className={nbaTeamFilter === 255 ? "warriors" : ""}
+                  className={nbaTeamFilter === 255 ? "nba-warriors" : ""}
                 >
                   WARRIORS
                 </span>
@@ -549,35 +549,35 @@ const NBAPosts = () => {
                 <div className="filterBy__optionsDivider"></div>
                 <span
                   onClick={() => handleNbaTeamClick(261)}
-                  className={nbaTeamFilter === 261 ? "grizzlies" : ""}
+                  className={nbaTeamFilter === 261 ? "nba-grizzlies" : ""}
                 >
                   GRIZZLIES
                 </span>
                 <div className="filterBy__optionsDot"></div>
                 <span
                   onClick={() => handleNbaTeamClick(262)}
-                  className={nbaTeamFilter === 262 ? "mavericks" : ""}
+                  className={nbaTeamFilter === 262 ? "nba-mavericks" : ""}
                 >
                   MAVERICKS
                 </span>
                 <div className="filterBy__optionsDot"></div>
                 <span
                   onClick={() => handleNbaTeamClick(263)}
-                  className={nbaTeamFilter === 263 ? "pelicans" : ""}
+                  className={nbaTeamFilter === 263 ? "nba-pelicans" : ""}
                 >
                   PELICANS
                 </span>
                 <div className="filterBy__optionsDot"></div>
                 <span
                   onClick={() => handleNbaTeamClick(264)}
-                  className={nbaTeamFilter === 264 ? "rockets" : ""}
+                  className={nbaTeamFilter === 264 ? "nba-rockets" : ""}
                 >
                   ROCKETS
                 </span>
                 <div className="filterBy__optionsDot"></div>
                 <span
                   onClick={() => handleNbaTeamClick(265)}
-                  className={nbaTeamFilter === 265 ? "spurs" : ""}
+                  className={nbaTeamFilter === 265 ? "nba-spurs" : ""}
                 >
                   SPURS
                 </span>
