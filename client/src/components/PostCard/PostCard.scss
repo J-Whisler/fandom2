@@ -515,13 +515,15 @@
         background: $nfl-bengals-main;
         border: 2px solid $nfl-bengals-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nfl-bengals-secondary;
         }
     }
     &.nfl-browns {
         background: $nfl-browns-main;
         border: 2px solid $nfl-browns-secondary;
-        &:hover {
+        &:hover {            
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nfl-browns-secondary;
         }
     }
@@ -529,6 +531,7 @@
         background: $nfl-ravens-main;
         border: 2px solid $nfl-ravens-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nfl-ravens-secondary;
         }
     }
@@ -536,6 +539,7 @@
         background: $nfl-steelers-main;
         border: 2px solid $nfl-steelers-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nfl-steelers-secondary;
         }
     }
@@ -543,6 +547,7 @@
         background: $nfl-colts-main;
         border: 2px solid $nfl-colts-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nfl-colts-secondary
         }
     }
@@ -550,6 +555,7 @@
         background: $nfl-jaguars-main;
         border: 2px solid $nfl-jaguars-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nfl-jaguars-secondary;
         }
     }
@@ -557,6 +563,7 @@
         background: $nfl-texans-main;
         border: 2px solid $nfl-texans-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nfl-texans-secondary;
         }
     }
@@ -564,6 +571,7 @@
         background: $nfl-titans-main;
         border: 2px solid $nfl-titans-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nfl-titans-secondary;
         }
     }
@@ -571,6 +579,7 @@
         background: $nfl-bills-main;
         border: 2px solid $nfl-bills-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nfl-bills-secondary;
         }
     }
@@ -578,6 +587,7 @@
         background: $nfl-dolphins-main;
         border: 2px solid $nfl-dolphins-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nfl-dolphins-secondary;
         }
     }
@@ -585,6 +595,7 @@
         background: $nfl-jets-main;
         border: 2px solid $nfl-jets-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nfl-jets-secondary;
         }
     }
@@ -592,6 +603,7 @@
         background: $nfl-patriots-main;
         border: 2px solid $nfl-patriots-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nfl-patriots-secondary;
         }
     }
@@ -599,6 +611,7 @@
         background: $nfl-broncos-main;
         border: 2px solid $nfl-broncos-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nfl-broncos-secondary;
         }
     }
@@ -606,6 +619,7 @@
         background: $nfl-chargers-main;
         border: 2px solid $nfl-chargers-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nfl-chargers-secondary;
         }
     }
@@ -613,6 +627,7 @@
         background: $nfl-chiefs-main;
         border: 2px solid $nfl-chiefs-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nfl-chiefs-secondary;
         }
     }
@@ -620,6 +635,7 @@
         background: $nfl-raiders-main;
         border: 2px solid $nfl-raiders-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nfl-raiders-secondary;
         }
     }
@@ -627,6 +643,7 @@
         background: $nfl-bears-main;
         border: 2px solid $nfl-bears-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nfl-bears-secondary;
         }
     }
@@ -634,6 +651,7 @@
         background: $nfl-lions-main;
         border: 2px solid $nfl-lions-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nfl-lions-secondary;
         }
     }
@@ -641,6 +659,7 @@
         background: $nfl-packers-main;
         border: 2px solid $nfl-packers-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nfl-packers-secondary;
         }
     }
@@ -648,6 +667,7 @@
         background: $nfl-vikings-main;
         border: 2px solid $nfl-vikings-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nfl-vikings-secondary;
         }
     }
@@ -655,6 +675,7 @@
         background: $nfl-buccaneers-main;
         border: 2px solid $nfl-buccaneers-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nfl-buccaneers-secondary;
         }
     }
@@ -662,6 +683,7 @@
         background: $nfl-falcons-main;
         border: 2px solid $nfl-falcons-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nfl-falcons-secondary;
         }
     }
@@ -669,6 +691,7 @@
         background: $nfl-panthers-main;
         border: 2px solid $nfl-panthers-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nfl-panthers-secondary;
         }
     }
@@ -676,6 +699,7 @@
         background: $nfl-saints-main;
         border: 2px solid $nfl-saints-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nfl-saints-secondary;
         }
     }
@@ -683,6 +707,7 @@
         background: $nfl-cowboys-main;
         border: 2px solid $nfl-cowboys-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nfl-cowboys-secondary;
         }
     }
@@ -690,6 +715,7 @@
         background: $nfl-eagles-main;
         border: 2px solid $nfl-eagles-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nfl-eagles-secondary;
         }
     }
@@ -697,6 +723,7 @@
         background: $nfl-footballteam-main;
         border: 2px solid $nfl-footballteam-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nfl-footballteam-secondary;
         }
     }
@@ -704,6 +731,7 @@
         background: $nfl-giants-main;
         border: 2px solid $nfl-giants-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nfl-giants-secondary;
         }
     }
@@ -711,6 +739,7 @@
         background: $nfl-niners-main;
         border: 2px solid $nfl-niners-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nfl-niners-secondary;
         }
     }
@@ -718,6 +747,7 @@
         background: $nfl-cardinals-main;
         border: 2px solid $nfl-cardinals-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nfl-cardinals-secondary;
         }
     }
@@ -725,6 +755,7 @@
         background: $nfl-rams-main;
         border: 2px solid $nfl-rams-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nfl-rams-secondary;
         }
     }
@@ -732,6 +763,7 @@
         background: $nfl-seahawks-main;
         border: 2px solid $nfl-seahawks-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nfl-seahawks-secondary;
         }
     }
@@ -742,6 +774,7 @@
         background: $nhl-bruins-main;
         border: 2px solid $nhl-bruins-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nhl-bruins-secondary;
         }
     }
@@ -749,6 +782,7 @@
         background: $nhl-canadiens-main;
         border: 2px solid $nhl-canadiens-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nhl-canadiens-secondary;
         }
     }
@@ -756,6 +790,7 @@
         background: $nhl-lightning-main;
         border: 2px solid $nhl-lightning-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nhl-lightning-secondary;
         }
     }
@@ -763,6 +798,7 @@
         background: $nhl-mapleleafs-main;
         border: 2px solid $nhl-mapleleafs-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nhl-mapleleafs-secondary;
         }
     }
@@ -770,6 +806,7 @@
         background: $nhl-panthers-main;
         border: 2px solid $nhl-panthers-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nfl-panthers-secondary
         }
     }
@@ -777,6 +814,7 @@
         background: $nhl-redwings-main;
         border: 2px solid $nhl-redwings-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nhl-redwings-secondary;
         }
     }
@@ -784,6 +822,7 @@
         background: $nhl-sabres-main;
         border: 2px solid $nhl-sabres-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nhl-sabres-secondary;
         }
     }
@@ -791,6 +830,7 @@
         background: $nhl-senators-main;
         border: 2px solid $nhl-senators-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nhl-senators-secondary;
         }
     }
@@ -798,6 +838,7 @@
         background: $nhl-bluejackets-main;
         border: 2px solid $nhl-bluejackets-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nhl-bluejackets-secondary;
         }
     }
@@ -805,6 +846,7 @@
         background: $nhl-capitals-main;
         border: 2px solid $nhl-capitals-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nhl-capitals-secondary;
         }
     }
@@ -812,6 +854,7 @@
         background: $nhl-devils-main;
         border: 2px solid $nhl-devils-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nhl-devils-secondary;
         }
     }
@@ -819,6 +862,7 @@
         background: $nhl-flyers-main;
         border: 2px solid $nhl-flyers-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nhl-flyers-secondary;
         }
     }
@@ -826,6 +870,7 @@
         background: $nhl-hurricanes-main;
         border: 2px solid $nhl-hurricanes-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nhl-hurricanes-secondary;
         }
     }
@@ -833,6 +878,7 @@
         background: $nhl-islanders-main;
         border: 2px solid $nhl-islanders-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nhl-islanders-secondary;
         }
     }
@@ -840,6 +886,7 @@
         background: $nhl-penguins-main;
         border: 2px solid $nhl-penguins-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nhl-penguins-secondary;
         }
     }
@@ -847,6 +894,7 @@
         background: $nhl-rangers-main;
         border: 2px solid $nhl-rangers-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nhl-rangers-secondary;
         }
     }
@@ -854,6 +902,7 @@
         background: $nhl-avalanche-main;
         border: 2px solid $nhl-avalanche-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nhl-avalanche-secondary;
         }
     }
@@ -861,6 +910,7 @@
         background: $nhl-blackhawks-main;
         border: 2px solid $nhl-blackhawks-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nhl-blackhawks-secondary;
         }
     }
@@ -868,6 +918,7 @@
         background: $nhl-blues-main;
         border: 2px solid $nhl-blues-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nhl-blues-secondary;
         }
     }
@@ -875,6 +926,7 @@
         background: $nhl-coyotes-main;
         border: 2px solid $nhl-coyotes-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nhl-coyotes-secondary;
         }
     }
@@ -882,6 +934,7 @@
         background: $nhl-jets-main;
         border: 2px solid $nhl-jets-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nhl-jets-secondary;
         }
     }
@@ -889,6 +942,7 @@
         background: $nhl-predators-main;
         border: 2px solid $nhl-predators-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nhl-predators-secondary;
         }
     }
@@ -896,6 +950,7 @@
         background: $nhl-stars-main;
         border: 2px solid $nhl-stars-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nhl-stars-secondary;
         }
     }
@@ -903,6 +958,7 @@
         background: $nhl-wild-main;
         border: 2px solid $nhl-wild-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nhl-wild-secondary;
         }
     }
@@ -910,6 +966,7 @@
         background: $nhl-canucks-main;
         border: 2px solid $nhl-canucks-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nhl-canucks-secondary;
         }
     }
@@ -917,6 +974,7 @@
         background: $nhl-ducks-main;
         border: 2px solid $nhl-ducks-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nhl-ducks-secondary;
         }
     }
@@ -924,6 +982,7 @@
         background: $nhl-flames-main;
         border: 2px solid $nhl-flames-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nhl-flames-secondary;
         }
     }
@@ -931,6 +990,7 @@
         background: $nhl-goldenknights-main;
         border: 2px solid $nhl-goldenknights-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nhl-goldenknights-secondary;
         }
     }
@@ -938,6 +998,7 @@
         background: $nhl-kings-main;
         border: 2px solid $nhl-kings-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nhl-kings-secondary;
         }
     }
@@ -945,6 +1006,7 @@
         background: $nhl-kraken-main;
         border: 2px solid $nhl-kraken-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nhl-kraken-secondary;
         }
     }
@@ -952,6 +1014,7 @@
         background: $nhl-oilers-main;
         border: 2px solid $nhl-oilers-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nhl-oilers-secondary;
         }
     }
@@ -959,6 +1022,7 @@
         background: $nhl-sharks-main;
         border: 2px solid $nhl-sharks-secondary;
         &:hover {
+            transform: scale(1.01);
             box-shadow: 0px 0px 15px $nhl-sharks-secondary;
         }
     }
