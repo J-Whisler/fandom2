@@ -12,22 +12,36 @@ const Nav = () => {
       </div>
       <div className="nav__links">
         <Link to="/" className="nav__linksLink link__home">
-          Home
+          HOME
         </Link>
+        <div className="nav__linksDivider"></div>
         <Link to="/all" className="nav__linksLink link__all">
           All
         </Link>
+        <div className="nav__linksDivider"></div>
+
         <Link to="/mlb" className="nav__linksLink link__mlb">
           MLB
         </Link>
+        <div className="nav__linksDivider"></div>
+
         <Link to="/nba" className="nav__linksLink link__nba">
           NBA
         </Link>
+        <div className="nav__linksDivider"></div>
+
         <Link to="/nfl" className="nav__linksLink link__nfl">
           NFL
         </Link>
+        <div className="nav__linksDivider"></div>
+
         <Link to="/nhl" className="nav__linksLink link__nhl">
           NHL
+        </Link>
+        <div className="nav__linksDivider"></div>
+
+        <Link to="/addpost" className="nav__linksLink link__addpost">
+          ADD POST
         </Link>
       </div>
       <div className="nav__social">

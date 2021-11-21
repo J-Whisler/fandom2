@@ -7,6 +7,7 @@ import MLBPosts from './pages/MLBPosts/MLBPosts';
 import NBAPosts from './pages/NBAPosts/NBAPosts';
 import NFLPosts from './pages/NFLPosts/NFLPosts';
 import NHLPosts from './pages/NHLPosts/NHLPosts';
+import AddPost from './pages/AddPost/AddPost';
 
 function App() {
   return (
@@ -15,11 +16,12 @@ function App() {
         <Nav />
         <Switch>
           <Route path="/" exact component={Home}  />
-          <Route path="/all" exact component={AllPosts}  />
-          <Route path="/mlb" exact component={MLBPosts}  />
-          <Route path="/nba" exact component={NBAPosts}  />
-          <Route path="/nfl" exact component={NFLPosts}  />
-          <Route path="/nhl" exact component={NHLPosts}  />
+          <Route path="/addpost" component={AddPost} />
+          <Route path="/all" component={AllPosts}  />
+          <Route path="/mlb" component={MLBPosts}  />
+          <Route path="/nba" component={NBAPosts}  />
+          <Route path="/nfl" component={NFLPosts}  />
+          <Route path="/nhl" component={NHLPosts}  />
         </Switch>
         
       </div>

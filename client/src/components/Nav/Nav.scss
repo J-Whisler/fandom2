@@ -65,7 +65,19 @@
                     color: $nfc-blue;
                 }
             }
+            &.link__addpost {
+                &:hover {
+                    color: $nhl-atlantic;
+                }
+            }
             
+            
+        }
+        .nav__linksDivider {
+            background: $font-color;
+            border-radius: 50%;
+            padding: 0.2rem;
+            opacity: 0.5;
         }
     }
     .nav__social {
