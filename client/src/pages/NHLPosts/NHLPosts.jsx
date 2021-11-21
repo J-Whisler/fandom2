@@ -599,6 +599,11 @@ const NFLPosts = () => {
           <Link to="/nhl" className="link active">
             <i className="fas fa-hockey-puck"></i>
           </Link>
+          <div className="link__divider"></div>
+          <Link to="/addpost" className="link addpost">
+            <i className="fas fa-plus-circle"></i>
+            <span>Add Post</span>
+          </Link>
         </div>
         <div
           className={sortBy ? "nflPosts__list newest" : "nflPosts__list oldest"}

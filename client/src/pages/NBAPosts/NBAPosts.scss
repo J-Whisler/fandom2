@@ -290,6 +290,25 @@
                 font-size: 3rem;
                 margin-bottom: 3rem;
                 transition: all 0.3s ease-in-out;
+                &.addpost {
+                    display: flex;
+                    flex-direction: column;
+                    text-decoration: none;
+                    text-align: center;
+                  
+                    span {
+                        margin-top: 0.5rem;
+                        font-family: $header-font;
+                        font-size: 0.9rem;
+                        display: none;
+                    }
+                    &:hover {
+                        span {
+                            display: flex;
+                        }
+                    }
+                    
+                }
                 &.active {
                     opacity: 0.6;
                     transform: scale(1.05);
@@ -300,6 +319,15 @@
                     transform: scale(1.05);
                     text-shadow: 0 0 15px $bg-color, 0 0 10px $font-color;
                 }
+            }
+            .link__divider {
+                background: $font-color;
+                border-radius: 2rem;
+                opacity: 0.3;
+                padding: 0.1rem;
+                display: flex;
+                margin-bottom: 2rem;
+                margin-top: -1rem;
             }
         }
         .nbaPosts__list {
