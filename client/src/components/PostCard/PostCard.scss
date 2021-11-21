@@ -736,6 +736,233 @@
         }
     }
     // NFL POST CARD COLORS END
+
+    // NHL POST CARD COLORS START
+    &.nhl-bruins {
+        background: $nhl-bruins-main;
+        border: 2px solid $nhl-bruins-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nhl-bruins-secondary;
+        }
+    }
+    &.nhl-canadiens {
+        background: $nhl-canadiens-main;
+        border: 2px solid $nhl-canadiens-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nhl-canadiens-secondary;
+        }
+    }
+    &.nhl-lightning {
+        background: $nhl-lightning-main;
+        border: 2px solid $nhl-lightning-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nhl-lightning-secondary;
+        }
+    }
+    &.nhl-mapleleafs {
+        background: $nhl-mapleleafs-main;
+        border: 2px solid $nhl-mapleleafs-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nhl-mapleleafs-secondary;
+        }
+    }
+    &.nhl-panthers {
+        background: $nhl-panthers-main;
+        border: 2px solid $nhl-panthers-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nfl-panthers-secondary
+        }
+    }
+    &.nhl-redwings {
+        background: $nhl-redwings-main;
+        border: 2px solid $nhl-redwings-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nhl-redwings-secondary;
+        }
+    }
+    &.nhl-sabres {
+        background: $nhl-sabres-main;
+        border: 2px solid $nhl-sabres-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nhl-sabres-secondary;
+        }
+    }
+    &.nhl-senators {
+        background: $nhl-senators-main;
+        border: 2px solid $nhl-senators-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nhl-senators-secondary;
+        }
+    }
+    &.nhl-bluejackets {
+        background: $nhl-bluejackets-main;
+        border: 2px solid $nhl-bluejackets-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nhl-bluejackets-secondary;
+        }
+    }
+    &.nhl-capitals {
+        background: $nhl-capitals-main;
+        border: 2px solid $nhl-capitals-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nhl-capitals-secondary;
+        }
+    }
+    &.nhl-devils {
+        background: $nhl-devils-main;
+        border: 2px solid $nhl-devils-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nhl-devils-secondary;
+        }
+    }
+    &.nhl-flyers {
+        background: $nhl-flyers-main;
+        border: 2px solid $nhl-flyers-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nhl-flyers-secondary;
+        }
+    }
+    &.nhl-hurricanes {
+        background: $nhl-hurricanes-main;
+        border: 2px solid $nhl-hurricanes-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nhl-hurricanes-secondary;
+        }
+    }
+    &.nhl-islanders {
+        background: $nhl-islanders-main;
+        border: 2px solid $nhl-islanders-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nhl-islanders-secondary;
+        }
+    }
+    &.nhl-penguins {
+        background: $nhl-penguins-main;
+        border: 2px solid $nhl-penguins-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nhl-penguins-secondary;
+        }
+    }
+    &.nhl-rangers {
+        background: $nhl-rangers-main;
+        border: 2px solid $nhl-rangers-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nhl-rangers-secondary;
+        }
+    }
+    &.nhl-avalanche {
+        background: $nhl-avalanche-main;
+        border: 2px solid $nhl-avalanche-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nhl-avalanche-secondary;
+        }
+    }
+    &.nhl-blackhawks {
+        background: $nhl-blackhawks-main;
+        border: 2px solid $nhl-blackhawks-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nhl-blackhawks-secondary;
+        }
+    }
+    &.nhl-blues {
+        background: $nhl-blues-main;
+        border: 2px solid $nhl-blues-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nhl-blues-secondary;
+        }
+    }
+    &.nhl-coyotes {
+        background: $nhl-coyotes-main;
+        border: 2px solid $nhl-coyotes-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nhl-coyotes-secondary;
+        }
+    }
+    &.nhl-jets {
+        background: $nhl-jets-main;
+        border: 2px solid $nhl-jets-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nhl-jets-secondary;
+        }
+    }
+    &.nhl-predators {
+        background: $nhl-predators-main;
+        border: 2px solid $nhl-predators-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nhl-predators-secondary;
+        }
+    }
+    &.nhl-stars {
+        background: $nhl-stars-main;
+        border: 2px solid $nhl-stars-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nhl-stars-secondary;
+        }
+    }
+    &.nhl-wild {
+        background: $nhl-wild-main;
+        border: 2px solid $nhl-wild-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nhl-wild-secondary;
+        }
+    }
+    &.nhl-canucks {
+        background: $nhl-canucks-main;
+        border: 2px solid $nhl-canucks-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nhl-canucks-secondary;
+        }
+    }
+    &.nhl-ducks {
+        background: $nhl-ducks-main;
+        border: 2px solid $nhl-ducks-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nhl-ducks-secondary;
+        }
+    }
+    &.nhl-flames {
+        background: $nhl-flames-main;
+        border: 2px solid $nhl-flames-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nhl-flames-secondary;
+        }
+    }
+    &.nhl-goldenknights {
+        background: $nhl-goldenknights-main;
+        border: 2px solid $nhl-goldenknights-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nhl-goldenknights-secondary;
+        }
+    }
+    &.nhl-kings {
+        background: $nhl-kings-main;
+        border: 2px solid $nhl-kings-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nhl-kings-secondary;
+        }
+    }
+    &.nhl-kraken {
+        background: $nhl-kraken-main;
+        border: 2px solid $nhl-kraken-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nhl-kraken-secondary;
+        }
+    }
+    &.nhl-oilers {
+        background: $nhl-oilers-main;
+        border: 2px solid $nhl-oilers-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nhl-oilers-secondary;
+        }
+    }
+    &.nhl-sharks {
+        background: $nhl-sharks-main;
+        border: 2px solid $nhl-sharks-secondary;
+        &:hover {
+            box-shadow: 0px 0px 15px $nhl-sharks-secondary;
+        }
+    }
+    // NHL POST CARD COLORS END
    
     
     .postCard__user {
@@ -1230,7 +1457,7 @@
                 border: 4px solid $nfl-chiefs-secondary;
             }
         }
-        &.chargers {
+        &.nfl-chargers {
             color: $nfl-chargers-secondary;
             p {
                 border: 4px solid $nfl-chargers-secondary;
@@ -1248,7 +1475,7 @@
                 border: 4px solid $nfl-raiders-secondary;
             }
         }
-        &.cowboys {
+        &.nfl-cowboys {
             color: $nfl-cowboys-secondary;
             p {
                 border: 4px solid $nfl-cowboys-secondary;
@@ -1347,6 +1574,203 @@
     
         
         // NFL END
+
+        // NHL START
+        &.nhl-bruins {
+            color: $nhl-bruins-secondary;
+            p {
+                border: 4px solid $nhl-bruins-secondary;
+            }
+        }
+        &.nhl-canadiens {
+            color: $nhl-canadiens-secondary;
+            p {
+                border: 4px solid $nhl-canadiens-secondary;
+            }
+        }
+        &.nhl-lightning {
+            color: $nhl-lightning-secondary;
+            p {
+                border: 4px solid $nhl-lightning-secondary;
+            }
+        }
+        &.nhl-mapleleafs {
+            color: $nhl-mapleleafs-secondary;
+            p {
+                border: 4px solid $nhl-mapleleafs-secondary;
+            }
+        }
+        &.nhl-panthers {
+            color: $nhl-panthers-secondary;
+            p {
+                border: 4px solid $nhl-panthers-secondary;
+            }
+        }
+        &.nhl-redwings {
+            color: $nhl-redwings-secondary;
+            p {
+                border: 4px solid $nhl-redwings-secondary;
+            }
+        }
+        &.nhl-sabres {
+            color: $nhl-sabres-secondary;
+            p {
+                border: 4px solid $nhl-sabres-secondary;
+            }
+        }
+        &.nhl-senators {
+            color: $nhl-senators-secondary;
+            p {
+                border: 4px solid $nhl-senators-secondary;
+            }
+        }
+        &.nhl-bluejackets {
+            color: $nhl-bluejackets-secondary;
+            p {
+                border: 4px solid $nhl-bluejackets-secondary;
+            }
+        }
+        &.nhl-capitals {
+            color: $nhl-capitals-secondary;
+            p {
+                border: 4px solid $nhl-capitals-secondary;
+            }
+        }
+        &.nhl-devils {
+            color: $nhl-devils-secondary;
+            p {
+                border: 4px solid $nhl-devils-secondary;
+            }
+        }
+        &.nhl-flyers {
+            color: $nhl-flyers-secondary;
+            p {
+                border: 4px solid $nhl-flyers-secondary;
+            }
+        }
+        &.nhl-hurricanes {
+            color: $nhl-hurricanes-secondary;
+            p {
+                border: 4px solid $nhl-hurricanes-secondary;
+            }
+        }
+        &.nhl-islanders {
+            color: $nhl-islanders-secondary;
+            p {
+                border: 4px solid $nhl-islanders-secondary;
+            }
+        }
+        &.nhl-penguins {
+            color: $nhl-penguins-secondary;
+            p {
+                border: 4px solid $nhl-penguins-secondary;
+            }
+        }
+        &.nhl-rangers {
+            color: $nhl-rangers-secondary;
+            p {
+                border: 4px solid $nhl-rangers-secondary;
+            }
+        }
+        &.nhl-avalanche {
+            color: $nhl-avalanche-secondary;
+            p {
+                border: 4px solid $nhl-avalanche-secondary;
+            }
+        }
+        &.nhl-blackhawks {
+            color: $nhl-blackhawks-secondary;
+            p {
+                border: 4px solid $nhl-blackhawks-secondary;
+            }
+        }
+        &.nhl-blues {
+            color: $nhl-blues-secondary;
+            p {
+                border: 4px solid $nhl-blues-secondary;
+            }
+        }
+        &.nhl-coyotes {
+            color: $nhl-coyotes-secondary;
+            p {
+                border: 4px solid $nhl-coyotes-secondary;
+            }
+        }
+        &.nhl-jets {
+            color: $nhl-jets-secondary;
+            p {
+                border: 4px solid $nhl-jets-secondary;
+            }
+        }
+        &.nhl-predators {
+            color: $nhl-predators-secondary;
+            p {
+                border: 4px solid $nhl-predators-secondary;
+            }
+        }
+        &.nhl-stars {
+            color: $nhl-stars-secondary;
+            p {
+                border: 4px solid $nhl-stars-secondary;
+            }
+        }
+        &.nhl-wild {
+            color: $nhl-wild-secondary;
+            p {
+                border: 4px solid $nhl-wild-secondary;
+            }
+        }
+        &.nhl-canucks {
+            color: $nhl-canucks-secondary;
+            p {
+                border: 4px solid $nhl-canucks-secondary;
+            }
+        }
+        &.nhl-ducks {
+            color: $nhl-ducks-secondary;
+            p {
+                border: 4px solid $nhl-ducks-secondary;
+            }
+        }
+        &.nhl-flames {
+            color: $nhl-flames-secondary;
+            p {
+                border: 4px solid $nhl-flames-secondary;
+            }
+        }
+        &.nhl-goldenknights {
+            color: $nhl-goldenknights-secondary;
+            p {
+                border: 4px solid $nhl-goldenknights-secondary;
+            }
+        }
+        &.nhl-kings {
+            color: $nhl-kings-secondary;
+            p {
+                border: 4px solid $nhl-kings-secondary;
+            }
+        }
+        &.nhl-kraken {
+            color: $nhl-kraken-secondary;
+            p {
+                border: 4px solid $nhl-kraken-secondary;
+            }
+        }
+        &.nhl-oilers {
+            color: $nhl-oilers-secondary;
+            p {
+                border: 4px solid $nhl-oilers-secondary;
+            }
+        }
+        &.nhl-sharks {
+            color: $nhl-sharks-secondary;
+            p {
+                border: 4px solid $nhl-sharks-secondary;
+            }
+        }
+    
+        
+        // NHL END
         
       
     }

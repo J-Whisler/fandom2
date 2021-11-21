@@ -19,7 +19,7 @@ const NFLPosts = () => {
     });
   }, []);
 
-  // Get NBA Posts
+  // Get NFL Posts
   const nflPostsList = listOfPosts.filter(
     (nflPost) => nflPost.league === "NFL"
   );
