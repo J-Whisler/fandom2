@@ -1,5 +1,6 @@
 import React from "react";
 import "./PostCard.scss";
+import { useHistory } from "react-router-dom";
 
 const PostCard = ({ post }) => {
   const getTeamName = post.team.toLowerCase().replace(/ /g, "");
@@ -13,10 +14,15 @@ const PostCard = ({ post }) => {
   const getPostYear = sqlPostDateSplit[0].substring(2, 4);
   const formattedDate = `${getPostMonth}/${getPostDay}/${getPostYear}`;
 
-  console.log(`${getLeague}-${getTeamName}`);
+  let history = useHistory();
 
   return (
-    <div className={`postCard ${getLeague}-${getTeamName}`}>
+    <div
+      className={`postCard ${getLeague}-${getTeamName}`}
+      onClick={() => {
+        history.push(`/singlepost/${post.id}`);
+      }}
+    >
       <div className={`postCard__user ${getLeague}-${getTeamName}`}>
         <div className="postCard__userInitial">
           <p>{firstInitial}</p>

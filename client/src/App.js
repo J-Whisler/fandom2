@@ -8,6 +8,7 @@ import NBAPosts from './pages/NBAPosts/NBAPosts';
 import NFLPosts from './pages/NFLPosts/NFLPosts';
 import NHLPosts from './pages/NHLPosts/NHLPosts';
 import AddPost from './pages/AddPost/AddPost';
+import SinglePost from './pages/SinglePost/SinglePost';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/nba" component={NBAPosts}  />
           <Route path="/nfl" component={NFLPosts}  />
           <Route path="/nhl" component={NHLPosts}  />
+          <Route path="/singlepost/:id" component={SinglePost} />
         </Switch>
         
       </div>
