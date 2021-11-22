@@ -1,0 +1,98 @@
+@import "../../utilities/variables.scss";
+
+.singlePost {
+    background: $bg-color;
+    min-height: 100vh;
+    padding: 2rem 4rem;
+    .singlePost__link {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        margin: 0.5rem 0 1rem 1rem;
+    
+        .singlePost__backArrow {
+            border: 2px solid $font-color;
+            border-radius: 50%;
+            width: 2%;
+            display: flex;
+            justify-content: center;
+            padding: 1.5rem 2.2rem;
+            margin-right: 1rem;
+            i {
+                color: $font-color;
+                font-size: 1.5rem;
+            }
+        }
+        span {
+            color: $font-color;
+            font-family: $header-font;
+            font-size: 1.5rem;
+            letter-spacing: 0.1rem;
+        }
+    }
+    .singlePost__post {
+        padding: 2rem;
+    }
+    .singlePost__comments {
+        display: flex;
+        flex-direction: column;
+        // border-top: 2px solid $font-color;
+        padding: 2rem 0 0 2rem;
+        width: 100%;
+        margin: auto;
+        .singlePost__addComment {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 3rem;
+            width: 95%;
+            margin: 0 auto;
+            textarea {
+                font-family: $main-font;
+                font-size: 1rem;
+                border-radius: 0.5rem;
+                padding: 0.5rem;
+                margin-bottom: 1rem;
+            }
+
+            button {
+                width: 20%;
+                align-self: flex-end;
+                border: 2px solid $blue;
+                background: $blue;
+                color: $bg-color;
+                font-family: $header-font;
+                font-size: 1.5rem;
+                border-radius: 0.5rem;
+                padding: 0.5rem 1rem;
+                cursor: pointer;
+                margin-bottom: 1rem;
+                transition: all 0.3s ease-in-out;
+                &:hover {
+                    opacity: 0.8;
+                    transform: scale(0.97);
+                }
+            }
+        }
+        .singlePost__listOfComments {
+            border-top: 2px solid $font-color;
+            padding: 2rem 0;
+            display: flex;
+            flex-direction: column;
+            width: 95%;
+            margin: 0 auto;
+            h3 {
+                color: $blue;
+                font-family: $header-font;
+                letter-spacing: 0.1rem;
+                font-size: 2rem;
+                margin-left: 2rem;
+            }
+            .singlePost__comments {
+                display: flex;
+                flex-direction: column-reverse;
+            }
+
+        }
+
+    }
+}

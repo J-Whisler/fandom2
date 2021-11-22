@@ -1,0 +1,13 @@
+@import "../../utilities/variables.scss";
+
+.commentCard {
+    border: 2px solid $font-color;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    p {
+        color: $font-color;
+        font-family: $header-font;
+        font-size: 1.5rem;
+    }
+}
